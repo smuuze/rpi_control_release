@@ -19,4 +19,7 @@ ls
 rm -rf rpi_control_frmwrk
 rm -rf rpi_control_fw
 
+git add *
+git commit -m "Automatic Relase"
+git push
 
