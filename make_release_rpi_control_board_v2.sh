@@ -27,6 +27,7 @@ cd ../..
 ls 
 rm -rf rpi_control_frmwrk
 rm -rf rpi_control_fw
+rm -rf rpi_control_sw
 
 git add *
 git commit -m "Automatic Relase"
