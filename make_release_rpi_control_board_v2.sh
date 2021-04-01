@@ -16,7 +16,7 @@ make release
 cp -r release/* ../../RPi_Control_Board_v2
 
 cd ../cfg_rpi_hat_ir_board
-make relase
+make release
 cp -r release/* ../../RPi_IR_Remote_Board
 
 cd ../../rpi_control_sw/cfg_SHC_CLIENT
