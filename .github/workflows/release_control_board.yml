@@ -35,10 +35,6 @@ jobs:
           repository: smuuze/rpi_control_fw
           path: rpi_control_fw
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
-
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
         run: |
@@ -46,3 +42,9 @@ jobs:
           ls rpi_control_frmwrk
           echo --- Content of rpi_control_fw ---
           ls rpi_control_fw
+          cd rpi_control_fw/cfg_rpi_hat_control_board_v2
+          echo --- Content of rpi_control_fw/cfg_rpi_hat_control_board_v2 ---
+          ls
+          
+      - name: Build RPi Control-Board v2
+        uses: bazhenov/action-avr-make@v1.0
