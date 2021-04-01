@@ -10,6 +10,7 @@ mkdir -p RPi_SHC_Client
 git clone https://www.github.com/smuuze/rpi_control_frmwrk
 git clone https://www.github.com/smuuze/rpi_control_fw
 git clone https://www.github.com/smuuze/rpi_control_sw
+git clone https://www.github.com/eclipse/paho.mqtt.c
 
 cd rpi_control_fw/cfg_rpi_hat_control_board_v2
 make release
@@ -28,6 +29,7 @@ ls
 rm -rf rpi_control_frmwrk
 rm -rf rpi_control_fw
 rm -rf rpi_control_sw
+rm -rf paho.mqtt.c
 
 git add *
 git commit -m "Automatic Relase"
