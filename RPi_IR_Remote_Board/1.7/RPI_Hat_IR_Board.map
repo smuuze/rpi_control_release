@@ -1,0 +1,2770 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+                              /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o (exit)
+/usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+                              obj/rpi_protocol_handler_i2c.o (__tablejump2__)
+/usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+                              obj/board_191005.o (__do_copy_data)
+/usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+                              obj/signal_slot_interface.o (__do_clear_bss)
+/usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+                              obj/local_msg_buffer.o (__prologue_saves__)
+/usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+                              obj/local_msg_buffer.o (__epilogue_restores__)
+
+Allocating common symbols
+Common symbol       size              file
+
+__local_usart_status_module_status
+                    0x2               obj/usart0_driver_atmega1284p.o
+__I2C0_STATUS_module_status
+                    0x3               obj/i2c0_driver_status.o
+system_context      0x2d              obj/initialization.o
+
+Discarded input sections
+
+ .data          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+ .text          0x00000000        0x0 obj/main_rpi_hat.o
+ .data          0x00000000        0x0 obj/main_rpi_hat.o
+ .bss           0x00000000        0x0 obj/main_rpi_hat.o
+ .text.task_yield
+                0x00000000        0x6 obj/main_rpi_hat.o
+ .text          0x00000000        0x0 obj/board_191005.o
+ .bss           0x00000000        0x0 obj/board_191005.o
+ .text.LED_GREEN_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_GREEN_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_GREEN_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.LED_GREEN_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_GREEN_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_GREEN_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_GREEN_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.LED_GREEN_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.LED_GREEN_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.LED_GREEN_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.LED_BLUE_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_BLUE_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_BLUE_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.LED_BLUE_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_BLUE_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_BLUE_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_BLUE_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.LED_BLUE_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.LED_BLUE_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.LED_BLUE_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.LED_RED_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_RED_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.LED_RED_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_RED_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_RED_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.LED_RED_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.LED_RED_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.LED_RED_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.LED_RED_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A3_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A3_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A3_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A3_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A3_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A3_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A3_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_A3_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_A3_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_A3_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A4_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A4_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A4_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A4_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A4_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A4_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A4_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_A4_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_A4_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_A4_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A5_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A5_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A5_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A5_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A5_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A5_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A5_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_A5_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_A5_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_A5_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A6_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A6_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A6_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A6_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A6_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A6_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A6_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_A6_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_A6_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_A6_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A7_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A7_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A7_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_A7_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A7_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A7_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_A7_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_A7_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_A7_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_A7_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_B0_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B0_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B0_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_B0_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B0_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B0_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B0_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_B0_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_B0_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_B0_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.IR_CARRIER_IN_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_CARRIER_IN_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_CARRIER_IN_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.IR_CARRIER_IN_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_CARRIER_IN_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_CARRIER_IN_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.IR_CARRIER_IN_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.IR_CARRIER_IN_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.IR_CARRIER_IN_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_B2_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B2_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B2_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_B2_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B2_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B2_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_B2_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_B2_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_B2_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_B2_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.IR_CARRIER_OUT_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_CARRIER_OUT_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.IR_CARRIER_OUT_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_CARRIER_OUT_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_CARRIER_OUT_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_CARRIER_OUT_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.IR_CARRIER_OUT_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.IR_CARRIER_OUT_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.IR_CARRIER_OUT_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.IR_MOD_OUT_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.IR_MOD_OUT_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_MOD_OUT_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_MOD_OUT_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.IR_MOD_OUT_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.IR_MOD_OUT_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.IR_MOD_OUT_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.IR_MOD_OUT_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.PROG_MOSI_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MOSI_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MOSI_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.PROG_MOSI_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MOSI_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MOSI_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MOSI_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.PROG_MOSI_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.PROG_MOSI_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.PROG_MOSI_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.PROG_MISO_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MISO_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MISO_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.PROG_MISO_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MISO_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MISO_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_MISO_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.PROG_MISO_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.PROG_MISO_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.PROG_MISO_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.PROG_SCK_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_SCK_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_SCK_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.PROG_SCK_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_SCK_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_SCK_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.PROG_SCK_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.PROG_SCK_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.PROG_SCK_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.PROG_SCK_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.I2C_SCL_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.I2C_SCL_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.I2C_SCL_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.I2C_SCL_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.I2C_SCL_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.I2C_SCL_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.I2C_SCL_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.I2C_SDA_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.I2C_SDA_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.I2C_SDA_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.I2C_SDA_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.I2C_SDA_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.I2C_SDA_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.I2C_SDA_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_C2_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C2_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C2_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_C2_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C2_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C2_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C2_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_C2_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_C2_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_C2_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_C3_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C3_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C3_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_C3_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C3_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C3_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C3_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_C3_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_C3_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_C3_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_C4_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C4_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C4_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_C4_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C4_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C4_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C4_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_C4_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_C4_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_C4_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_C5_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C5_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C5_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_C5_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C5_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C5_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_C5_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_C5_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_C5_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_C5_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.XT0_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT0_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT0_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.XT0_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT0_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT0_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT0_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.XT0_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.XT0_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.XT0_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.XT1_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT1_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT1_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.XT1_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT1_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT1_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.XT1_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.XT1_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.XT1_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.XT1_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UART0_RX_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_RX_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_RX_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UART0_RX_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_RX_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_RX_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_RX_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UART0_RX_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UART0_RX_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UART0_RX_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UART0_TX_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_TX_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_TX_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UART0_TX_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_TX_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_TX_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UART0_TX_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UART0_TX_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UART0_TX_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UART0_TX_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D2_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D2_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D2_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D2_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D2_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D2_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D2_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_D2_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_D2_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_D2_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D3_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D3_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D3_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D3_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D3_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D3_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D3_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_D3_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_D3_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_D3_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D4_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D4_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D4_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D4_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D4_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D4_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D4_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_D4_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_D4_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_D4_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D5_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D5_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D5_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D5_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D5_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D5_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D5_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_D5_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_D5_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_D5_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D6_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D6_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D6_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D6_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D6_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D6_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D6_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_D6_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_D6_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_D6_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D7_drive_high
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D7_drive_low
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D7_toggle_level
+                0x00000000        0xa obj/board_191005.o
+ .text.UNUSED_D7_pull_up
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D7_pull_down
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D7_no_pull
+                0x00000000       0x16 obj/board_191005.o
+ .text.UNUSED_D7_no_drive
+                0x00000000        0x6 obj/board_191005.o
+ .text.UNUSED_D7_is_high_level
+                0x00000000       0x14 obj/board_191005.o
+ .text.UNUSED_D7_is_low_level
+                0x00000000       0x12 obj/board_191005.o
+ .text.UNUSED_D7_print_state
+                0x00000000        0xa obj/board_191005.o
+ .text          0x00000000        0x0 obj/local_module_status.o
+ .data          0x00000000        0x0 obj/local_module_status.o
+ .bss           0x00000000        0x0 obj/local_module_status.o
+ .text.module_status_set_u32
+                0x00000000       0x24 obj/local_module_status.o
+ .text.module_status_isset_u32
+                0x00000000       0x36 obj/local_module_status.o
+ .text.module_status_unset_u32
+                0x00000000       0x2c obj/local_module_status.o
+ .text.module_status_clear_all_u32
+                0x00000000        0xc obj/local_module_status.o
+ .text          0x00000000        0x0 obj/local_mutex.o
+ .data          0x00000000        0x0 obj/local_mutex.o
+ .bss           0x00000000        0x0 obj/local_mutex.o
+ .text          0x00000000        0x0 obj/local_progmem_load.o
+ .data          0x00000000        0x0 obj/local_progmem_load.o
+ .bss           0x00000000        0x0 obj/local_progmem_load.o
+ .text.local_progmem_get_byte
+                0x00000000        0x4 obj/local_progmem_load.o
+ .text.local_progmem_get_word
+                0x00000000        0x6 obj/local_progmem_load.o
+ .text.local_progmem_get_long
+                0x00000000        0x8 obj/local_progmem_load.o
+ .text.local_progmem_get_N_bytes
+                0x00000000        0x2 obj/local_progmem_load.o
+ .comment       0x00000000       0x12 obj/local_progmem_load.o
+ .text          0x00000000        0x0 obj/local_data_storage_array.o
+ .data          0x00000000        0x0 obj/local_data_storage_array.o
+ .bss           0x00000000        0x0 obj/local_data_storage_array.o
+ .text.local_data_storage_array_init_i8
+                0x00000000        0xa obj/local_data_storage_array.o
+ .text.local_data_storage_array_add_value_i8
+                0x00000000       0x24 obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_mean_i8
+                0x00000000       0x48 obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_max_i8
+                0x00000000       0x30 obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_min_i8
+                0x00000000       0x30 obj/local_data_storage_array.o
+ .text.local_data_storage_array_init_u8
+                0x00000000        0xa obj/local_data_storage_array.o
+ .text.local_data_storage_array_add_value_u8
+                0x00000000       0x24 obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_mean_u8
+                0x00000000       0x40 obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_max_u8
+                0x00000000       0x30 obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_min_u8
+                0x00000000       0x30 obj/local_data_storage_array.o
+ .text.local_data_storage_array_debug_print_data_u8
+                0x00000000        0x2 obj/local_data_storage_array.o
+ .text.local_data_storage_array_init_u16
+                0x00000000        0xa obj/local_data_storage_array.o
+ .text.local_data_storage_array_add_value_u16
+                0x00000000       0x2c obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_mean_u16
+                0x00000000       0x54 obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_max_u16
+                0x00000000       0x4a obj/local_data_storage_array.o
+ .text.local_data_storage_array_init_u32
+                0x00000000        0xa obj/local_data_storage_array.o
+ .text.local_data_storage_array_add_value_u32
+                0x00000000       0x30 obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_mean_u32
+                0x00000000       0x5a obj/local_data_storage_array.o
+ .text.local_data_storage_array_get_max_u32
+                0x00000000       0x56 obj/local_data_storage_array.o
+ .comment       0x00000000       0x12 obj/local_data_storage_array.o
+ .text          0x00000000        0x0 obj/local_msg_buffer.o
+ .data          0x00000000        0x0 obj/local_msg_buffer.o
+ .bss           0x00000000        0x0 obj/local_msg_buffer.o
+ .text.local_msg_buffer_debug_print
+                0x00000000        0x2 obj/local_msg_buffer.o
+ .text          0x00000000        0x0 obj/signal_slot_interface.o
+ .data          0x00000000        0x0 obj/signal_slot_interface.o
+ .text          0x00000000        0x0 obj/math_module.o
+ .data          0x00000000        0x0 obj/math_module.o
+ .bss           0x00000000        0x0 obj/math_module.o
+ .text.math_div_u32
+                0x00000000       0x54 obj/math_module.o
+ .text.math_div_i32
+                0x00000000      0x142 obj/math_module.o
+ .comment       0x00000000       0x12 obj/math_module.o
+ .text          0x00000000        0x0 obj/common_tools_number.o
+ .data          0x00000000        0x0 obj/common_tools_number.o
+ .bss           0x00000000        0x0 obj/common_tools_number.o
+ .text.common_tools_number_u32_from_array
+                0x00000000       0x64 obj/common_tools_number.o
+ .text.common_tools_number_u16_from_array
+                0x00000000       0x16 obj/common_tools_number.o
+ .text.common_tools_number_i32_from_array
+                0x00000000       0x62 obj/common_tools_number.o
+ .text.common_tools_number_i16_from_array
+                0x00000000       0x16 obj/common_tools_number.o
+ .text.common_tools_number_u32_to_array
+                0x00000000        0xc obj/common_tools_number.o
+ .text.common_tools_number_u16_to_array
+                0x00000000        0x8 obj/common_tools_number.o
+ .text.common_tools_number_from_u8
+                0x00000000       0x1a obj/common_tools_number.o
+ .comment       0x00000000       0x12 obj/common_tools_number.o
+ .text          0x00000000        0x0 obj/specific.o
+ .data          0x00000000        0x0 obj/specific.o
+ .bss           0x00000000        0x0 obj/specific.o
+ .text.specific_i2c_power_down
+                0x00000000        0x2 obj/specific.o
+ .text.specific_spi_power_down
+                0x00000000        0x2 obj/specific.o
+ .text.BEEPER_ON
+                0x00000000        0x2 obj/specific.o
+ .text.BEEPER_OFF
+                0x00000000        0x2 obj/specific.o
+ .comment       0x00000000       0x12 obj/specific.o
+ .text          0x00000000        0x0 obj/system_interface.o
+ .bss           0x00000000        0x0 obj/system_interface.o
+ .text.empty_driver_set_rx_bytes
+                0x00000000        0x2 obj/system_interface.o
+ .text.empty_driver_get_tx_bytes
+                0x00000000        0x4 obj/system_interface.o
+ .text.empty_driver_get_tx_bytes_num_available
+                0x00000000        0x4 obj/system_interface.o
+ .text          0x00000000        0x0 obj/tracer.o
+ .data          0x00000000        0x0 obj/tracer.o
+ .bss           0x00000000        0x0 obj/tracer.o
+ .text._get_string_length
+                0x00000000       0x12 obj/tracer.o
+ .text.tracer_init
+                0x00000000        0x2 obj/tracer.o
+ .text.tracer_pass
+                0x00000000        0x2 obj/tracer.o
+ .text.tracer_trace_byte
+                0x00000000        0x2 obj/tracer.o
+ .text.tracer_trace_word
+                0x00000000        0x2 obj/tracer.o
+ .text.tracer_trace_long
+                0x00000000        0x2 obj/tracer.o
+ .text.tracer_trace_n
+                0x00000000        0x2 obj/tracer.o
+ .text.tracer_enable
+                0x00000000        0x2 obj/tracer.o
+ .comment       0x00000000       0x12 obj/tracer.o
+ .text          0x00000000        0x0 obj/time_management.o
+ .data          0x00000000        0x0 obj/time_management.o
+ .bss           0x00000000        0x0 obj/time_management.o
+ .text.time_mgmnt_gettime_u8
+                0x00000000        0x6 obj/time_management.o
+ .text.time_mgmnt_gettime_u32
+                0x00000000        0x6 obj/time_management.o
+ .text.time_mgmnt_stop_u8
+                0x00000000        0x8 obj/time_management.o
+ .text.time_mgmnt_stop_u16
+                0x00000000        0xa obj/time_management.o
+ .text.time_mgmnt_stop_u32
+                0x00000000        0xe obj/time_management.o
+ .text.time_mgmnt_is_active_u8
+                0x00000000        0xe obj/time_management.o
+ .text.time_mgmnt_is_active_u16
+                0x00000000        0xe obj/time_management.o
+ .text.time_mgmnt_is_active_u32
+                0x00000000        0xe obj/time_management.o
+ .text.time_mgmnt_istimeup_raw_u8
+                0x00000000       0x1e obj/time_management.o
+ .text.time_mgmnt_istimeup_raw_u32
+                0x00000000       0x4a obj/time_management.o
+ .text.time_mgmnt_start_time_u8
+                0x00000000        0x6 obj/time_management.o
+ .text.time_mgmnt_start_time_u16
+                0x00000000        0x8 obj/time_management.o
+ .text.time_mgmnt_start_time_u32
+                0x00000000        0xc obj/time_management.o
+ .text          0x00000000        0x0 obj/mcu_task_controller.o
+ .text.mcu_task_controller_sleep
+                0x00000000       0x28 obj/mcu_task_controller.o
+ .text.mcu_task_controller_wakeup
+                0x00000000       0x28 obj/mcu_task_controller.o
+ .text.mcu_task_controller_terminate_all
+                0x00000000       0x28 obj/mcu_task_controller.o
+ .text          0x00000000        0x0 obj/mcu_idle_task.o
+ .data          0x00000000        0x0 obj/mcu_idle_task.o
+ .bss           0x00000000        0x0 obj/mcu_idle_task.o
+ .text.mcu_idle_task_init
+                0x00000000        0x2 obj/mcu_idle_task.o
+ .text.mcu_idle_task_get_schedule_interval
+                0x00000000        0x6 obj/mcu_idle_task.o
+ .text.mcu_idle_task_is_runable
+                0x00000000        0x4 obj/mcu_idle_task.o
+ .text.mcu_idle_task_background_run
+                0x00000000        0x2 obj/mcu_idle_task.o
+ .text.mcu_idle_task_sleep
+                0x00000000        0x2 obj/mcu_idle_task.o
+ .text.mcu_idle_task_wakeup
+                0x00000000        0x2 obj/mcu_idle_task.o
+ .text.mcu_idle_task_finish
+                0x00000000        0x2 obj/mcu_idle_task.o
+ .text.mcu_idle_task_terminate
+                0x00000000        0x2 obj/mcu_idle_task.o
+ .text          0x00000000        0x0 obj/local_event_task.o
+ .data          0x00000000        0x0 obj/local_event_task.o
+ .text          0x00000000        0x0 obj/ir_remote_mcu_task.o
+ .text.SAMSUNG_IR_CMD_RECEIVED_SIGNAL_set_timeout
+                0x00000000        0xa obj/ir_remote_mcu_task.o
+ .text.JVC_IR_CMD_RECEIVED_SIGNAL_set_timeout
+                0x00000000        0xa obj/ir_remote_mcu_task.o
+ .text.SONY_IR_CMD_RECEIVED_SIGNAL_set_timeout
+                0x00000000        0xa obj/ir_remote_mcu_task.o
+ .text          0x00000000        0x0 obj/ir_protocol_samsung.o
+ .data          0x00000000        0x0 obj/ir_protocol_samsung.o
+ .text          0x00000000        0x0 obj/ir_protocol_samsung_commands.o
+ .data          0x00000000        0x0 obj/ir_protocol_samsung_commands.o
+ .bss           0x00000000        0x0 obj/ir_protocol_samsung_commands.o
+ .text          0x00000000        0x0 obj/ir_protocol_jvc.o
+ .data          0x00000000        0x0 obj/ir_protocol_jvc.o
+ .text          0x00000000        0x0 obj/ir_protocol_jvc_commands.o
+ .data          0x00000000        0x0 obj/ir_protocol_jvc_commands.o
+ .bss           0x00000000        0x0 obj/ir_protocol_jvc_commands.o
+ .text.ir_protocol_jvc_cmd_radio_volume_mute
+                0x00000000        0x8 obj/ir_protocol_jvc_commands.o
+ .text          0x00000000        0x0 obj/ir_protocol_sony.o
+ .data          0x00000000        0x0 obj/ir_protocol_sony.o
+ .text          0x00000000        0x0 obj/ir_protocol_sony_commands.o
+ .data          0x00000000        0x0 obj/ir_protocol_sony_commands.o
+ .bss           0x00000000        0x0 obj/ir_protocol_sony_commands.o
+ .text          0x00000000        0x0 obj/rpi_protocol_handler_i2c.o
+ .text.RPI_COMMAND_BUFFER_bytes_free
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_COMMAND_BUFFER_add_byte
+                0x00000000        0xc obj/rpi_protocol_handler_i2c.o
+ .text.RPI_COMMAND_BUFFER_add_word
+                0x00000000        0xc obj/rpi_protocol_handler_i2c.o
+ .text.RPI_COMMAND_BUFFER_add_long
+                0x00000000        0xe obj/rpi_protocol_handler_i2c.o
+ .text.RPI_COMMAND_BUFFER_debug_print
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_COMMAND_BUFFER_size
+                0x00000000        0x6 obj/rpi_protocol_handler_i2c.o
+ .text.RPI_ANSWER_BUFFER_clear_all
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_ANSWER_BUFFER_get_byte
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_ANSWER_BUFFER_get_word
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_ANSWER_BUFFER_get_long
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_ANSWER_BUFFER_debug_print
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_ANSWER_BUFFER_size
+                0x00000000        0x6 obj/rpi_protocol_handler_i2c.o
+ .text.RPI_PROTOCOL_LEAVE_SLEEP_SIGNAL_set_timeout
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_PROTOCOL_LEAVE_SLEEP_SIGNAL_connect
+                0x00000000        0xc obj/rpi_protocol_handler_i2c.o
+ .text.RPI_PROTOCOL_ENTER_SLEEP_SIGNAL_set_timeout
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_PROTOCOL_ENTER_SLEEP_SIGNAL_connect
+                0x00000000        0xc obj/rpi_protocol_handler_i2c.o
+ .text.RPI_PROTOCOL_INVALID_COMMAND_RECEIVED_SIGNAL_send
+                0x00000000        0xc obj/rpi_protocol_handler_i2c.o
+ .text.RPI_PROTOCOL_INVALID_COMMAND_RECEIVED_SIGNAL_set_timeout
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.RPI_PROTOCOL_INVALID_COMMAND_RECEIVED_SIGNAL_connect
+                0x00000000        0xc obj/rpi_protocol_handler_i2c.o
+ .text.RPI_PROTOCOL_COMMAND_RECEIVED_SIGNAL_set_timeout
+                0x00000000        0xa obj/rpi_protocol_handler_i2c.o
+ .text.rpi_protocol_handler_get_actual_state
+                0x00000000        0x6 obj/rpi_protocol_handler_i2c.o
+ .text          0x00000000        0x0 obj/io_output_controller.o
+ .data          0x00000000        0x0 obj/io_output_controller.o
+ .text.io_output_controller_init
+                0x00000000        0x6 obj/io_output_controller.o
+ .text.io_output_controller_register_output
+                0x00000000       0x9a obj/io_output_controller.o
+ .text.io_output_controller_set_output
+                0x00000000       0x50 obj/io_output_controller.o
+ .text.io_output_controller_get_output
+                0x00000000       0xa2 obj/io_output_controller.o
+ .text.io_output_controller_get_iterator
+                0x00000000       0x56 obj/io_output_controller.o
+ .text.io_output_controller_iterator_get_element
+                0x00000000       0x94 obj/io_output_controller.o
+ .text.io_output_controller_iterator_get_next
+                0x00000000       0x4c obj/io_output_controller.o
+ .text          0x00000000        0x0 obj/io_input_controller.o
+ .data          0x00000000        0x0 obj/io_input_controller.o
+ .text.io_input_controller_register_input
+                0x00000000       0x64 obj/io_input_controller.o
+ .text.io_input_controller_get_state
+                0x00000000       0x8a obj/io_input_controller.o
+ .text.io_input_controller_task_sleep
+                0x00000000        0x2 obj/io_input_controller.o
+ .text.io_input_controller_task_wakeup
+                0x00000000        0x2 obj/io_input_controller.o
+ .text.io_input_controller_task_finish
+                0x00000000        0x2 obj/io_input_controller.o
+ .text.io_input_controller_task_terminate
+                0x00000000        0x2 obj/io_input_controller.o
+ .text.io_input_controller_get_iterator
+                0x00000000       0x34 obj/io_input_controller.o
+ .text.io_input_controller_iterator_get_element
+                0x00000000       0x70 obj/io_input_controller.o
+ .text.io_input_controller_iterator_get_next
+                0x00000000       0x3c obj/io_input_controller.o
+ .text          0x00000000        0x0 obj/command_controller.o
+ .text          0x00000000        0x0 obj/rpi_command_handler.o
+ .text          0x00000000        0x0 obj/rpi_command_handler_table.o
+ .bss           0x00000000        0x0 obj/rpi_command_handler_table.o
+ .text          0x00000000        0x0 obj/rpi_cmd_handler_system.o
+ .data          0x00000000        0x0 obj/rpi_cmd_handler_system.o
+ .bss           0x00000000        0x0 obj/rpi_cmd_handler_system.o
+ .text          0x00000000        0x0 obj/rpi_command_handler_ir_remote.o
+ .data          0x00000000        0x0 obj/rpi_command_handler_ir_remote.o
+ .bss           0x00000000        0x0 obj/rpi_command_handler_ir_remote.o
+ .text          0x00000000        0x0 obj/rpi_cmd_handler_ir_remote_samsung.o
+ .data          0x00000000        0x0 obj/rpi_cmd_handler_ir_remote_samsung.o
+ .bss           0x00000000        0x0 obj/rpi_cmd_handler_ir_remote_samsung.o
+ .text          0x00000000        0x0 obj/rpi_cmd_handler_ir_remote_jvc.o
+ .data          0x00000000        0x0 obj/rpi_cmd_handler_ir_remote_jvc.o
+ .bss           0x00000000        0x0 obj/rpi_cmd_handler_ir_remote_jvc.o
+ .text          0x00000000        0x0 obj/rpi_cmd_handler_ir_remote_sony.o
+ .data          0x00000000        0x0 obj/rpi_cmd_handler_ir_remote_sony.o
+ .bss           0x00000000        0x0 obj/rpi_cmd_handler_ir_remote_sony.o
+ .text          0x00000000        0x0 obj/rtc_driver_atmega1284p.o
+ .data          0x00000000        0x0 obj/rtc_driver_atmega1284p.o
+ .text.rtc_driver_deinit
+                0x00000000        0x2 obj/rtc_driver_atmega1284p.o
+ .text.rtc_timer_elapsed_u8
+                0x00000000        0xe obj/rtc_driver_atmega1284p.o
+ .text.rtc_timer_elapsed_u16
+                0x00000000       0x14 obj/rtc_driver_atmega1284p.o
+ .text.rtc_timer_elapsed_u32
+                0x00000000       0x22 obj/rtc_driver_atmega1284p.o
+ .text          0x00000000        0x0 obj/clock_driver_atmega1284p.o
+ .data          0x00000000        0x0 obj/clock_driver_atmega1284p.o
+ .bss           0x00000000        0x0 obj/clock_driver_atmega1284p.o
+ .text          0x00000000        0x0 obj/gpio_driver_atmega1284p.o
+ .data          0x00000000        0x0 obj/gpio_driver_atmega1284p.o
+ .bss           0x00000000        0x0 obj/gpio_driver_atmega1284p.o
+ .text          0x00000000        0x0 obj/i2c0_driver_status.o
+ .data          0x00000000        0x0 obj/i2c0_driver_status.o
+ .bss           0x00000000        0x0 obj/i2c0_driver_status.o
+ .text.I2C0_STATUS_clear_all
+                0x00000000       0x10 obj/i2c0_driver_status.o
+ .text          0x00000000        0x0 obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_TX_BUFFER_bytes_free
+                0x00000000        0xa obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_TX_BUFFER_add_byte
+                0x00000000        0xc obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_TX_BUFFER_add_word
+                0x00000000        0xc obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_TX_BUFFER_add_long
+                0x00000000        0xe obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_TX_BUFFER_get_word
+                0x00000000        0xa obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_TX_BUFFER_get_long
+                0x00000000        0xa obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_TX_BUFFER_get_N_bytes
+                0x00000000        0xe obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_TX_BUFFER_debug_print
+                0x00000000        0xa obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_TX_BUFFER_size
+                0x00000000        0x6 obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_RX_BUFFER_bytes_free
+                0x00000000        0xa obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_RX_BUFFER_add_word
+                0x00000000        0xc obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_RX_BUFFER_add_long
+                0x00000000        0xe obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_RX_BUFFER_add_N_bytes
+                0x00000000        0xe obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_RX_BUFFER_get_byte
+                0x00000000        0xa obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_RX_BUFFER_get_word
+                0x00000000        0xa obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_RX_BUFFER_get_long
+                0x00000000        0xa obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_RX_BUFFER_debug_print
+                0x00000000        0xa obj/i2c0_driver_atmega1284p.o
+ .text.I2C0_RX_BUFFER_size
+                0x00000000        0x6 obj/i2c0_driver_atmega1284p.o
+ .text          0x00000000        0x0 obj/usart0_driver_atmega1284p.o
+ .text          0x00000000        0x0 obj/timer0_driver_atmega1284p.o
+ .data          0x00000000        0x0 obj/timer0_driver_atmega1284p.o
+ .text.timer0_driver_deinit
+                0x00000000        0x2 obj/timer0_driver_atmega1284p.o
+ .text          0x00000000        0x0 obj/timer1_driver_atmega1284p.o
+ .data          0x00000000        0x0 obj/timer1_driver_atmega1284p.o
+ .text.timer1_driver_deinit
+                0x00000000        0x2 obj/timer1_driver_atmega1284p.o
+ .text          0x00000000        0x0 obj/sensor_initialization.o
+ .data          0x00000000        0x0 obj/sensor_initialization.o
+ .bss           0x00000000        0x0 obj/sensor_initialization.o
+ .text          0x00000000        0x0 obj/button_initialization.o
+ .data          0x00000000        0x0 obj/button_initialization.o
+ .bss           0x00000000        0x0 obj/button_initialization.o
+ .text          0x00000000        0x0 obj/output_initialization.o
+ .data          0x00000000        0x0 obj/output_initialization.o
+ .bss           0x00000000        0x0 obj/output_initialization.o
+ .text          0x00000000        0x0 obj/protocol_initialization.o
+ .data          0x00000000        0x0 obj/protocol_initialization.o
+ .bss           0x00000000        0x0 obj/protocol_initialization.o
+ .text          0x00000000        0x0 obj/command_initialization.o
+ .data          0x00000000        0x0 obj/command_initialization.o
+ .bss           0x00000000        0x0 obj/command_initialization.o
+ .text          0x00000000        0x0 obj/task_initialization.o
+ .bss           0x00000000        0x0 obj/task_initialization.o
+ .text          0x00000000        0x0 obj/system_initialization.o
+ .data          0x00000000        0x0 obj/system_initialization.o
+ .bss           0x00000000        0x0 obj/system_initialization.o
+ .text          0x00000000        0x0 obj/power_initialization.o
+ .data          0x00000000        0x0 obj/power_initialization.o
+ .bss           0x00000000        0x0 obj/power_initialization.o
+ .text          0x00000000        0x0 obj/initialization.o
+ .data          0x00000000        0x0 obj/initialization.o
+ .bss           0x00000000        0x0 obj/initialization.o
+ COMMON         0x00000000       0x2d obj/initialization.o
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.prologue
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+ .text          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+ .text.libgcc.mul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+ .text.libgcc.div
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+ .text.libgcc   0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+ .text.libgcc.builtins
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+ .text.libgcc.fmul
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+ .text.libgcc.fixed
+                0x00000000        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+text             0x00000000         0x00020000         xr
+data             0x00800100         0x0000ff00         rw !x
+eeprom           0x00810000         0x00010000         rw !x
+fuse             0x00820000         0x00000003         rw !x
+lock             0x00830000         0x00000400         rw !x
+signature        0x00840000         0x00000400         rw !x
+user_signatures  0x00850000         0x00000400         rw !x
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .data set to 0x800100
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+LOAD obj/main_rpi_hat.o
+LOAD obj/board_191005.o
+LOAD obj/local_module_status.o
+LOAD obj/local_mutex.o
+LOAD obj/local_progmem_load.o
+LOAD obj/local_data_storage_array.o
+LOAD obj/local_msg_buffer.o
+LOAD obj/signal_slot_interface.o
+LOAD obj/math_module.o
+LOAD obj/common_tools_number.o
+LOAD obj/specific.o
+LOAD obj/system_interface.o
+LOAD obj/tracer.o
+LOAD obj/time_management.o
+LOAD obj/mcu_task_controller.o
+LOAD obj/mcu_idle_task.o
+LOAD obj/local_event_task.o
+LOAD obj/ir_remote_mcu_task.o
+LOAD obj/ir_protocol_samsung.o
+LOAD obj/ir_protocol_samsung_commands.o
+LOAD obj/ir_protocol_jvc.o
+LOAD obj/ir_protocol_jvc_commands.o
+LOAD obj/ir_protocol_sony.o
+LOAD obj/ir_protocol_sony_commands.o
+LOAD obj/rpi_protocol_handler_i2c.o
+LOAD obj/io_output_controller.o
+LOAD obj/io_input_controller.o
+LOAD obj/command_controller.o
+LOAD obj/rpi_command_handler.o
+LOAD obj/rpi_command_handler_table.o
+LOAD obj/rpi_cmd_handler_system.o
+LOAD obj/rpi_command_handler_ir_remote.o
+LOAD obj/rpi_cmd_handler_ir_remote_samsung.o
+LOAD obj/rpi_cmd_handler_ir_remote_jvc.o
+LOAD obj/rpi_cmd_handler_ir_remote_sony.o
+LOAD obj/rtc_driver_atmega1284p.o
+LOAD obj/clock_driver_atmega1284p.o
+LOAD obj/gpio_driver_atmega1284p.o
+LOAD obj/i2c0_driver_status.o
+LOAD obj/i2c0_driver_atmega1284p.o
+LOAD obj/usart0_driver_atmega1284p.o
+LOAD obj/timer0_driver_atmega1284p.o
+LOAD obj/timer1_driver_atmega1284p.o
+LOAD obj/sensor_initialization.o
+LOAD obj/button_initialization.o
+LOAD obj/output_initialization.o
+LOAD obj/protocol_initialization.o
+LOAD obj/command_initialization.o
+LOAD obj/task_initialization.o
+LOAD obj/system_initialization.o
+LOAD obj/power_initialization.o
+LOAD obj/initialization.o
+START GROUP
+LOAD /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/libm.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/libc.a
+LOAD /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/libatmega1284p.a
+END GROUP
+                0x00020000                __TEXT_REGION_LENGTH__ = DEFINED (__TEXT_REGION_LENGTH__)?__TEXT_REGION_LENGTH__:0x20000
+                0x0000ff00                __DATA_REGION_LENGTH__ = DEFINED (__DATA_REGION_LENGTH__)?__DATA_REGION_LENGTH__:0xff00
+                0x00010000                __EEPROM_REGION_LENGTH__ = DEFINED (__EEPROM_REGION_LENGTH__)?__EEPROM_REGION_LENGTH__:0x10000
+                [0x00000003]                __FUSE_REGION_LENGTH__ = DEFINED (__FUSE_REGION_LENGTH__)?__FUSE_REGION_LENGTH__:0x400
+                0x00000400                __LOCK_REGION_LENGTH__ = DEFINED (__LOCK_REGION_LENGTH__)?__LOCK_REGION_LENGTH__:0x400
+                0x00000400                __SIGNATURE_REGION_LENGTH__ = DEFINED (__SIGNATURE_REGION_LENGTH__)?__SIGNATURE_REGION_LENGTH__:0x400
+                0x00000400                __USER_SIGNATURE_REGION_LENGTH__ = DEFINED (__USER_SIGNATURE_REGION_LENGTH__)?__USER_SIGNATURE_REGION_LENGTH__:0x400
+
+.hash
+ *(.hash)
+
+.dynsym
+ *(.dynsym)
+
+.dynstr
+ *(.dynstr)
+
+.gnu.version
+ *(.gnu.version)
+
+.gnu.version_d
+ *(.gnu.version_d)
+
+.gnu.version_r
+ *(.gnu.version_r)
+
+.rel.init
+ *(.rel.init)
+
+.rela.init
+ *(.rela.init)
+
+.rel.text
+ *(.rel.text)
+ *(.rel.text.*)
+ *(.rel.gnu.linkonce.t*)
+
+.rela.text
+ *(.rela.text)
+ *(.rela.text.*)
+ *(.rela.gnu.linkonce.t*)
+
+.rel.fini
+ *(.rel.fini)
+
+.rela.fini
+ *(.rela.fini)
+
+.rel.rodata
+ *(.rel.rodata)
+ *(.rel.rodata.*)
+ *(.rel.gnu.linkonce.r*)
+
+.rela.rodata
+ *(.rela.rodata)
+ *(.rela.rodata.*)
+ *(.rela.gnu.linkonce.r*)
+
+.rel.data
+ *(.rel.data)
+ *(.rel.data.*)
+ *(.rel.gnu.linkonce.d*)
+
+.rela.data
+ *(.rela.data)
+ *(.rela.data.*)
+ *(.rela.gnu.linkonce.d*)
+
+.rel.ctors
+ *(.rel.ctors)
+
+.rela.ctors
+ *(.rela.ctors)
+
+.rel.dtors
+ *(.rel.dtors)
+
+.rela.dtors
+ *(.rela.dtors)
+
+.rel.got
+ *(.rel.got)
+
+.rela.got
+ *(.rela.got)
+
+.rel.bss
+ *(.rel.bss)
+
+.rela.bss
+ *(.rela.bss)
+
+.rel.plt
+ *(.rel.plt)
+
+.rela.plt
+ *(.rela.plt)
+
+.text           0x00000000     0x3318
+ *(.vectors)
+ .vectors       0x00000000       0x8c /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+                0x00000000                __vectors
+                0x00000000                __vector_default
+ *(.vectors)
+ *(.progmem.gcc*)
+ .progmem.gcc_sw_table.rpi_protocol_task_run
+                0x0000008c       0x10 obj/rpi_protocol_handler_i2c.o
+ .progmem.gcc_sw_table.rpi_cmd_handler_ir_remote_samsung
+                0x0000009c       0x44 obj/rpi_cmd_handler_ir_remote_samsung.o
+ .progmem.gcc_sw_table.rpi_cmd_handler_ir_remote_jvc
+                0x000000e0       0x3a obj/rpi_cmd_handler_ir_remote_jvc.o
+ .progmem.gcc_sw_table.timer1_driver_configure
+                0x0000011a        0xe obj/timer1_driver_atmega1284p.o
+                0x00000128                . = ALIGN (0x2)
+                0x00000128                __trampolines_start = .
+ *(.trampolines)
+ .trampolines   0x00000128        0x0 linker stubs
+ *(.trampolines*)
+                0x00000128                __trampolines_end = .
+ *libprintf_flt.a:*(.progmem.data)
+ *libc.a:*(.progmem.data)
+ *(.progmem*)
+                0x00000128                . = ALIGN (0x2)
+ *(.jumptables)
+ *(.jumptables*)
+ *(.lowtext)
+ *(.lowtext*)
+                0x00000128                __ctors_start = .
+ *(.ctors)
+                0x00000128                __ctors_end = .
+                0x00000128                __dtors_start = .
+ *(.dtors)
+                0x00000128                __dtors_end = .
+ SORT(*)(.ctors)
+ SORT(*)(.dtors)
+ *(.init0)
+ .init0         0x00000128        0x0 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+                0x00000128                __init
+ *(.init0)
+ *(.init1)
+ *(.init1)
+ *(.init2)
+ .init2         0x00000128        0xc /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+ *(.init2)
+ *(.init3)
+ *(.init3)
+ *(.init4)
+ .init4         0x00000134       0x1a /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_copy_data.o)
+                0x00000134                __do_copy_data
+ .init4         0x0000014e       0x10 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_clear_bss.o)
+                0x0000014e                __do_clear_bss
+ *(.init4)
+ *(.init5)
+ *(.init5)
+ *(.init6)
+ *(.init6)
+ *(.init7)
+ *(.init7)
+ *(.init8)
+ *(.init8)
+ *(.init9)
+ .init9         0x0000015e        0x6 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+ *(.init9)
+ *(.text)
+ .text          0x00000164        0x2 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+                0x00000164                __vector_28
+                0x00000164                __vector_1
+                0x00000164                __vector_32
+                0x00000164                __vector_34
+                0x00000164                __vector_24
+                0x00000164                __vector_12
+                0x00000164                __bad_interrupt
+                0x00000164                __vector_6
+                0x00000164                __vector_31
+                0x00000164                __vector_3
+                0x00000164                __vector_23
+                0x00000164                __vector_30
+                0x00000164                __vector_25
+                0x00000164                __vector_11
+                0x00000164                __vector_19
+                0x00000164                __vector_7
+                0x00000164                __vector_27
+                0x00000164                __vector_5
+                0x00000164                __vector_33
+                0x00000164                __vector_4
+                0x00000164                __vector_2
+                0x00000164                __vector_21
+                0x00000164                __vector_29
+                0x00000164                __vector_8
+                0x00000164                __vector_10
+                0x00000166                . = ALIGN (0x2)
+ *(.text.*)
+ .text.main_init
+                0x00000166        0xa obj/main_rpi_hat.o
+                0x00000166                main_init
+ .text.startup.main
+                0x00000170        0xa obj/main_rpi_hat.o
+                0x00000170                main
+ .text.LED_RED_drive_low
+                0x0000017a       0x14 obj/board_191005.o
+                0x0000017a                LED_RED_drive_low
+ .text.IR_CARRIER_IN_no_pull
+                0x0000018e       0x14 obj/board_191005.o
+                0x0000018e                IR_CARRIER_IN_no_pull
+ .text.IR_CARRIER_OUT_drive_low
+                0x000001a2       0x14 obj/board_191005.o
+                0x000001a2                IR_CARRIER_OUT_drive_low
+ .text.IR_MOD_OUT_drive_high
+                0x000001b6       0x14 obj/board_191005.o
+                0x000001b6                IR_MOD_OUT_drive_high
+ .text.IR_MOD_OUT_drive_low
+                0x000001ca       0x14 obj/board_191005.o
+                0x000001ca                IR_MOD_OUT_drive_low
+ .text.I2C_SCL_drive_high
+                0x000001de       0x14 obj/board_191005.o
+                0x000001de                I2C_SCL_drive_high
+ .text.I2C_SCL_pull_up
+                0x000001f2       0x14 obj/board_191005.o
+                0x000001f2                I2C_SCL_pull_up
+ .text.I2C_SCL_no_pull
+                0x00000206       0x14 obj/board_191005.o
+                0x00000206                I2C_SCL_no_pull
+ .text.I2C_SDA_drive_high
+                0x0000021a       0x14 obj/board_191005.o
+                0x0000021a                I2C_SDA_drive_high
+ .text.I2C_SDA_pull_up
+                0x0000022e       0x14 obj/board_191005.o
+                0x0000022e                I2C_SDA_pull_up
+ .text.I2C_SDA_no_pull
+                0x00000242       0x14 obj/board_191005.o
+                0x00000242                I2C_SDA_no_pull
+ .text.module_status_set_u8
+                0x00000256        0xa obj/local_module_status.o
+                0x00000256                module_status_set_u8
+ .text.module_status_isset_u8
+                0x00000260        0xe obj/local_module_status.o
+                0x00000260                module_status_isset_u8
+ .text.module_status_unset_u8
+                0x0000026e        0xc obj/local_module_status.o
+                0x0000026e                module_status_unset_u8
+ .text.module_status_clear_all_u8
+                0x0000027a        0x6 obj/local_module_status.o
+                0x0000027a                module_status_clear_all_u8
+ .text.module_status_set_u16
+                0x00000280       0x10 obj/local_module_status.o
+                0x00000280                module_status_set_u16
+ .text.module_status_isset_u16
+                0x00000290       0x18 obj/local_module_status.o
+                0x00000290                module_status_isset_u16
+ .text.module_status_unset_u16
+                0x000002a8       0x14 obj/local_module_status.o
+                0x000002a8                module_status_unset_u16
+ .text.module_status_clear_all_u16
+                0x000002bc        0x8 obj/local_module_status.o
+                0x000002bc                module_status_clear_all_u16
+ .text.mutex_request
+                0x000002c4       0x1e obj/local_mutex.o
+                0x000002c4                mutex_request
+ .text.mutex_release
+                0x000002e2       0x1e obj/local_mutex.o
+                0x000002e2                mutex_release
+ .text.mutex_is_requested
+                0x00000300       0x10 obj/local_mutex.o
+                0x00000300                mutex_is_requested
+ .text.local_msg_buffer_init
+                0x00000310       0x12 obj/local_msg_buffer.o
+                0x00000310                local_msg_buffer_init
+ .text.local_msg_buffer_start_write
+                0x00000322       0x16 obj/local_msg_buffer.o
+                0x00000322                local_msg_buffer_start_write
+ .text.local_msg_buffer_add_byte
+                0x00000338       0x48 obj/local_msg_buffer.o
+                0x00000338                local_msg_buffer_add_byte
+ .text.local_msg_buffer_add_word
+                0x00000380       0x1a obj/local_msg_buffer.o
+                0x00000380                local_msg_buffer_add_word
+ .text.local_msg_buffer_add_long
+                0x0000039a       0x46 obj/local_msg_buffer.o
+                0x0000039a                local_msg_buffer_add_long
+ .text.local_msg_buffer_add_N_bytes
+                0x000003e0       0x2e obj/local_msg_buffer.o
+                0x000003e0                local_msg_buffer_add_N_bytes
+ .text.local_msg_buffer_stop_write
+                0x0000040e        0xa obj/local_msg_buffer.o
+                0x0000040e                local_msg_buffer_stop_write
+ .text.local_msg_buffer_start_read
+                0x00000418       0x16 obj/local_msg_buffer.o
+                0x00000418                local_msg_buffer_start_read
+ .text.local_msg_buffer_bytes_available
+                0x0000042e        0x8 obj/local_msg_buffer.o
+                0x0000042e                local_msg_buffer_bytes_available
+ .text.local_msg_buffer_bytes_free
+                0x00000436       0x10 obj/local_msg_buffer.o
+                0x00000436                local_msg_buffer_bytes_free
+ .text.local_msg_buffer_get_byte
+                0x00000446       0x4a obj/local_msg_buffer.o
+                0x00000446                local_msg_buffer_get_byte
+ .text.local_msg_buffer_get_word
+                0x00000490       0x24 obj/local_msg_buffer.o
+                0x00000490                local_msg_buffer_get_word
+ .text.local_msg_buffer_get_long
+                0x000004b4       0x58 obj/local_msg_buffer.o
+                0x000004b4                local_msg_buffer_get_long
+ .text.local_msg_buffer_get_N_bytes
+                0x0000050c       0x44 obj/local_msg_buffer.o
+                0x0000050c                local_msg_buffer_get_N_bytes
+ .text.local_msg_buffer_stop_read
+                0x00000550        0xa obj/local_msg_buffer.o
+                0x00000550                local_msg_buffer_stop_read
+ .text.local_msg_buffer_clear_all
+                0x0000055a       0x10 obj/local_msg_buffer.o
+                0x0000055a                local_msg_buffer_clear_all
+ .text.signal_slot_init
+                0x0000056a       0x10 obj/signal_slot_interface.o
+                0x0000056a                signal_slot_init
+ .text.signal_slot_send
+                0x0000057a       0x68 obj/signal_slot_interface.o
+                0x0000057a                signal_slot_send
+ .text.signal_slot_connect
+                0x000005e2       0x30 obj/signal_slot_interface.o
+                0x000005e2                signal_slot_connect
+ .text.empty_driver_configure
+                0x00000612        0x2 obj/system_interface.o
+ .text.empty_driver_start_rx
+                0x00000614        0x2 obj/system_interface.o
+ .text.empty_driver_wait_for_tx
+                0x00000616        0x2 obj/system_interface.o
+ .text.empty_driver_clear_tx_buffer
+                0x00000618        0x2 obj/system_interface.o
+ .text.empty_driver_mutex_release
+                0x0000061a        0x2 obj/system_interface.o
+ .text.__system_interface_progmem_get_byte
+                0x0000061c        0x4 obj/system_interface.o
+ .text.__system_interface_progmem_get_word
+                0x00000620        0x6 obj/system_interface.o
+ .text.__system_interface_progmem_get_long
+                0x00000626        0x8 obj/system_interface.o
+ .text.__system_interface_progmem_get_N_bytes
+                0x0000062e        0x2 obj/system_interface.o
+ .text.empty_driver_set_N_bytes
+                0x00000630        0x4 obj/system_interface.o
+ .text.empty_driver_get_N_bytes
+                0x00000634        0x4 obj/system_interface.o
+ .text.empty_driver_wait_for_rx
+                0x00000638        0x2 obj/system_interface.o
+ .text.empty_driver_is_ready_for_rx
+                0x0000063a        0x4 obj/system_interface.o
+ .text.empty_driver_is_ready_for_tx
+                0x0000063e        0x4 obj/system_interface.o
+ .text.empty_driver_bytes_available
+                0x00000642        0x4 obj/system_interface.o
+ .text.empty_driver_set_address
+                0x00000646        0x2 obj/system_interface.o
+ .text.empty_driver_mutex_request
+                0x00000648        0x4 obj/system_interface.o
+ .text.empty_driver_stop_tx
+                0x0000064c        0x2 obj/system_interface.o
+ .text.empty_driver_clear_rx_buffer
+                0x0000064e        0x2 obj/system_interface.o
+ .text.empty_driver_stop_rx
+                0x00000650        0x2 obj/system_interface.o
+ .text.empty_driver_start_tx
+                0x00000652        0x2 obj/system_interface.o
+ .text.empty_driver_initialize
+                0x00000654        0x2 obj/system_interface.o
+ .text.empty_driver_power_off
+                0x00000656        0x2 obj/system_interface.o
+ .text.time_mgmnt_gettime_u16
+                0x00000658        0x6 obj/time_management.o
+                0x00000658                time_mgmnt_gettime_u16
+ .text.time_mgmnt_start_u8
+                0x0000065e       0x16 obj/time_management.o
+                0x0000065e                time_mgmnt_start_u8
+ .text.time_mgmnt_start_u16
+                0x00000674       0x18 obj/time_management.o
+                0x00000674                time_mgmnt_start_u16
+ .text.time_mgmnt_start_u32
+                0x0000068c       0x1c obj/time_management.o
+                0x0000068c                time_mgmnt_start_u32
+ .text.time_mgmnt_istimeup_raw_u16
+                0x000006a8       0x2a obj/time_management.o
+                0x000006a8                time_mgmnt_istimeup_raw_u16
+ .text.time_mgmnt_elapsed_u8
+                0x000006d2       0x20 obj/time_management.o
+                0x000006d2                time_mgmnt_elapsed_u8
+ .text.time_mgmnt_istimeup_u8
+                0x000006f2       0x14 obj/time_management.o
+                0x000006f2                time_mgmnt_istimeup_u8
+ .text.time_mgmnt_elapsed_u16
+                0x00000706       0x26 obj/time_management.o
+                0x00000706                time_mgmnt_elapsed_u16
+ .text.time_mgmnt_istimeup_u16
+                0x0000072c       0x1a obj/time_management.o
+                0x0000072c                time_mgmnt_istimeup_u16
+ .text.time_mgmnt_elapsed_u32
+                0x00000746       0x38 obj/time_management.o
+                0x00000746                time_mgmnt_elapsed_u32
+ .text.time_mgmnt_istimeup_u32
+                0x0000077e       0x28 obj/time_management.o
+                0x0000077e                time_mgmnt_istimeup_u32
+ .text.mcu_task_controller_init
+                0x000007a6       0x12 obj/mcu_task_controller.o
+                0x000007a6                mcu_task_controller_init
+ .text.mcu_task_controller_register_task
+                0x000007b8       0xa2 obj/mcu_task_controller.o
+                0x000007b8                mcu_task_controller_register_task
+ .text.mcu_task_controller_schedule
+                0x0000085a       0xaa obj/mcu_task_controller.o
+                0x0000085a                mcu_task_controller_schedule
+ .text.mcu_task_controller_background_run
+                0x00000904       0x28 obj/mcu_task_controller.o
+                0x00000904                mcu_task_controller_background_run
+ .text.mcu_idle_task_run
+                0x0000092c        0x2 obj/mcu_idle_task.o
+                0x0000092c                mcu_idle_task_run
+ .text.local_event_mcu_task_init
+                0x0000092e        0x2 obj/local_event_task.o
+                0x0000092e                local_event_mcu_task_init
+ .text.local_event_mcu_task_get_schedule_interval
+                0x00000930        0x6 obj/local_event_task.o
+                0x00000930                local_event_mcu_task_get_schedule_interval
+ .text.local_event_mcu_task_get_state
+                0x00000936       0x16 obj/local_event_task.o
+                0x00000936                local_event_mcu_task_get_state
+ .text.local_event_mcu_task_run
+                0x0000094c       0xb2 obj/local_event_task.o
+                0x0000094c                local_event_mcu_task_run
+ .text.local_event_mcu_task_background_run
+                0x000009fe        0x2 obj/local_event_task.o
+                0x000009fe                local_event_mcu_task_background_run
+ .text.local_event_mcu_task_sleep
+                0x00000a00        0x2 obj/local_event_task.o
+                0x00000a00                local_event_mcu_task_sleep
+ .text.local_event_mcu_task_wakeup
+                0x00000a02        0x2 obj/local_event_task.o
+                0x00000a02                local_event_mcu_task_wakeup
+ .text.local_event_mcu_task_finish
+                0x00000a04        0x2 obj/local_event_task.o
+                0x00000a04                local_event_mcu_task_finish
+ .text.local_event_mcu_task_terminate
+                0x00000a06        0x2 obj/local_event_task.o
+                0x00000a06                local_event_mcu_task_terminate
+ .text.local_event_add
+                0x00000a08       0x54 obj/local_event_task.o
+                0x00000a08                local_event_add
+ .text.local_event_get_next
+                0x00000a5c        0x4 obj/local_event_task.o
+                0x00000a5c                local_event_get_next
+ .text.ir_remote_task_background_run
+                0x00000a60        0x2 obj/ir_remote_mcu_task.o
+ .text.IR_REMOTE_TASK_STATUS_is_set
+                0x00000a62        0x8 obj/ir_remote_mcu_task.o
+ .text.ir_remote_task_get_state
+                0x00000a6a        0xa obj/ir_remote_mcu_task.o
+ .text.ir_remote_task_get_schedule_interval
+                0x00000a74       0x14 obj/ir_remote_mcu_task.o
+ .text.IR_REMOTE_TASK_STATUS_unset
+                0x00000a88        0x8 obj/ir_remote_mcu_task.o
+ .text.ir_remote_task_init
+                0x00000a90        0x6 obj/ir_remote_mcu_task.o
+ .text.ir_remote_task_slot_SAMSUNG_IR_CMD_RECEIVED
+                0x00000a96       0x28 obj/ir_remote_mcu_task.o
+ .text.ir_remote_task_slot_JVC_IR_CMD_RECEIVED
+                0x00000abe       0x28 obj/ir_remote_mcu_task.o
+ .text.ir_remote_task_slot_SONY_IR_CMD_RECEIVED
+                0x00000ae6       0x2e obj/ir_remote_mcu_task.o
+ .text.ir_remote_task_run
+                0x00000b14       0xa8 obj/ir_remote_mcu_task.o
+ .text.SAMSUNG_IR_CMD_RECEIVED_SIGNAL_init
+                0x00000bbc        0x6 obj/ir_remote_mcu_task.o
+                0x00000bbc                SAMSUNG_IR_CMD_RECEIVED_SIGNAL_init
+ .text.SAMSUNG_IR_CMD_RECEIVED_SIGNAL_send
+                0x00000bc2        0x8 obj/ir_remote_mcu_task.o
+                0x00000bc2                SAMSUNG_IR_CMD_RECEIVED_SIGNAL_send
+ .text.SAMSUNG_IR_CMD_RECEIVED_SIGNAL_connect
+                0x00000bca        0x8 obj/ir_remote_mcu_task.o
+                0x00000bca                SAMSUNG_IR_CMD_RECEIVED_SIGNAL_connect
+ .text.SAMSUNG_IR_CMD_RECEIVED_SLOT_connect
+                0x00000bd2       0x12 obj/ir_remote_mcu_task.o
+                0x00000bd2                SAMSUNG_IR_CMD_RECEIVED_SLOT_connect
+ .text.JVC_IR_CMD_RECEIVED_SIGNAL_init
+                0x00000be4        0x6 obj/ir_remote_mcu_task.o
+                0x00000be4                JVC_IR_CMD_RECEIVED_SIGNAL_init
+ .text.JVC_IR_CMD_RECEIVED_SIGNAL_send
+                0x00000bea        0x8 obj/ir_remote_mcu_task.o
+                0x00000bea                JVC_IR_CMD_RECEIVED_SIGNAL_send
+ .text.JVC_IR_CMD_RECEIVED_SIGNAL_connect
+                0x00000bf2        0x8 obj/ir_remote_mcu_task.o
+                0x00000bf2                JVC_IR_CMD_RECEIVED_SIGNAL_connect
+ .text.JVC_IR_CMD_RECEIVED_SLOT_connect
+                0x00000bfa       0x12 obj/ir_remote_mcu_task.o
+                0x00000bfa                JVC_IR_CMD_RECEIVED_SLOT_connect
+ .text.SONY_IR_CMD_RECEIVED_SIGNAL_init
+                0x00000c0c        0x6 obj/ir_remote_mcu_task.o
+                0x00000c0c                SONY_IR_CMD_RECEIVED_SIGNAL_init
+ .text.SONY_IR_CMD_RECEIVED_SIGNAL_send
+                0x00000c12        0x8 obj/ir_remote_mcu_task.o
+                0x00000c12                SONY_IR_CMD_RECEIVED_SIGNAL_send
+ .text.SONY_IR_CMD_RECEIVED_SIGNAL_connect
+                0x00000c1a        0x8 obj/ir_remote_mcu_task.o
+                0x00000c1a                SONY_IR_CMD_RECEIVED_SIGNAL_connect
+ .text.SONY_IR_CMD_RECEIVED_SLOT_connect
+                0x00000c22       0x12 obj/ir_remote_mcu_task.o
+                0x00000c22                SONY_IR_CMD_RECEIVED_SLOT_connect
+ .text.ir_remote_app_task_init
+                0x00000c34       0x4a obj/ir_remote_mcu_task.o
+                0x00000c34                ir_remote_app_task_init
+ .text.ir_protocol_samsung_irq_callback
+                0x00000c7e       0x72 obj/ir_protocol_samsung.o
+                0x00000c7e                ir_protocol_samsung_irq_callback
+ .text.ir_protocol_samsung_is_busy
+                0x00000cf0        0xe obj/ir_protocol_samsung.o
+                0x00000cf0                ir_protocol_samsung_is_busy
+ .text.ir_protocol_samsung_set_timer
+                0x00000cfe       0x12 obj/ir_protocol_samsung.o
+                0x00000cfe                ir_protocol_samsung_set_timer
+ .text.ir_protocol_samsung_transmit
+                0x00000d10      0x16a obj/ir_protocol_samsung.o
+                0x00000d10                ir_protocol_samsung_transmit
+ .text.ir_protocol_samsung_address_tv
+                0x00000e7a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000e7a                ir_protocol_samsung_address_tv
+ .text.ir_protocol_samsung_cmd_tv_power
+                0x00000e82        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000e82                ir_protocol_samsung_cmd_tv_power
+ .text.ir_protocol_samsung_cmd_tv_volume_up
+                0x00000e8a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000e8a                ir_protocol_samsung_cmd_tv_volume_up
+ .text.ir_protocol_samsung_cmd_tv_volume_down
+                0x00000e92        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000e92                ir_protocol_samsung_cmd_tv_volume_down
+ .text.ir_protocol_samsung_cmd_tv_volume_mute
+                0x00000e9a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000e9a                ir_protocol_samsung_cmd_tv_volume_mute
+ .text.ir_protocol_samsung_cmd_tv_channel_up
+                0x00000ea2        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000ea2                ir_protocol_samsung_cmd_tv_channel_up
+ .text.ir_protocol_samsung_cmd_tv_channel_down
+                0x00000eaa        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000eaa                ir_protocol_samsung_cmd_tv_channel_down
+ .text.ir_protocol_samsung_cmd_tv_channel_0
+                0x00000eb2        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000eb2                ir_protocol_samsung_cmd_tv_channel_0
+ .text.ir_protocol_samsung_cmd_tv_channel_1
+                0x00000eba        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000eba                ir_protocol_samsung_cmd_tv_channel_1
+ .text.ir_protocol_samsung_cmd_tv_channel_2
+                0x00000ec2        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000ec2                ir_protocol_samsung_cmd_tv_channel_2
+ .text.ir_protocol_samsung_cmd_tv_channel_3
+                0x00000eca        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000eca                ir_protocol_samsung_cmd_tv_channel_3
+ .text.ir_protocol_samsung_cmd_tv_channel_4
+                0x00000ed2        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000ed2                ir_protocol_samsung_cmd_tv_channel_4
+ .text.ir_protocol_samsung_cmd_tv_channel_5
+                0x00000eda        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000eda                ir_protocol_samsung_cmd_tv_channel_5
+ .text.ir_protocol_samsung_cmd_tv_channel_6
+                0x00000ee2        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000ee2                ir_protocol_samsung_cmd_tv_channel_6
+ .text.ir_protocol_samsung_cmd_tv_channel_7
+                0x00000eea        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000eea                ir_protocol_samsung_cmd_tv_channel_7
+ .text.ir_protocol_samsung_cmd_tv_channel_8
+                0x00000ef2        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000ef2                ir_protocol_samsung_cmd_tv_channel_8
+ .text.ir_protocol_samsung_cmd_tv_channel_9
+                0x00000efa        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000efa                ir_protocol_samsung_cmd_tv_channel_9
+ .text.ir_protocol_samsung_cmd_tv_enter
+                0x00000f02        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f02                ir_protocol_samsung_cmd_tv_enter
+ .text.ir_protocol_samsung_cmd_tv_exit
+                0x00000f0a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f0a                ir_protocol_samsung_cmd_tv_exit
+ .text.ir_protocol_samsung_cmd_tv_return
+                0x00000f12        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f12                ir_protocol_samsung_cmd_tv_return
+ .text.ir_protocol_samsung_cmd_tv_arrow_up
+                0x00000f1a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f1a                ir_protocol_samsung_cmd_tv_arrow_up
+ .text.ir_protocol_samsung_cmd_tv_arrow_down
+                0x00000f22        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f22                ir_protocol_samsung_cmd_tv_arrow_down
+ .text.ir_protocol_samsung_cmd_tv_arrow_left
+                0x00000f2a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f2a                ir_protocol_samsung_cmd_tv_arrow_left
+ .text.ir_protocol_samsung_cmd_tv_arrow_right
+                0x00000f32        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f32                ir_protocol_samsung_cmd_tv_arrow_right
+ .text.ir_protocol_samsung_cmd_tv_play
+                0x00000f3a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f3a                ir_protocol_samsung_cmd_tv_play
+ .text.ir_protocol_samsung_cmd_tv_pause
+                0x00000f42        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f42                ir_protocol_samsung_cmd_tv_pause
+ .text.ir_protocol_samsung_cmd_tv_stop
+                0x00000f4a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f4a                ir_protocol_samsung_cmd_tv_stop
+ .text.ir_protocol_samsung_cmd_tv_program_guide
+                0x00000f52        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f52                ir_protocol_samsung_cmd_tv_program_guide
+ .text.ir_protocol_samsung_cmd_tv_home
+                0x00000f5a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f5a                ir_protocol_samsung_cmd_tv_home
+ .text.ir_protocol_samsung_cmd_tv_channel_list
+                0x00000f62        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f62                ir_protocol_samsung_cmd_tv_channel_list
+ .text.ir_protocol_samsung_cmd_tv_source
+                0x00000f6a        0x8 obj/ir_protocol_samsung_commands.o
+                0x00000f6a                ir_protocol_samsung_cmd_tv_source
+ .text.ir_protocol_jvc_irq_callback
+                0x00000f72       0xa6 obj/ir_protocol_jvc.o
+                0x00000f72                ir_protocol_jvc_irq_callback
+ .text.ir_protocol_jvc_is_busy
+                0x00001018        0xe obj/ir_protocol_jvc.o
+                0x00001018                ir_protocol_jvc_is_busy
+ .text.ir_protocol_jvc_set_timer
+                0x00001026       0x12 obj/ir_protocol_jvc.o
+                0x00001026                ir_protocol_jvc_set_timer
+ .text.ir_protocol_jvc_transmit
+                0x00001038      0x152 obj/ir_protocol_jvc.o
+                0x00001038                ir_protocol_jvc_transmit
+ .text.ir_protocol_jvc_address_radio
+                0x0000118a        0x8 obj/ir_protocol_jvc_commands.o
+                0x0000118a                ir_protocol_jvc_address_radio
+ .text.ir_protocol_jvc_cmd_radio_power
+                0x00001192        0x6 obj/ir_protocol_jvc_commands.o
+                0x00001192                ir_protocol_jvc_cmd_radio_power
+ .text.ir_protocol_jvc_cmd_radio_volume_up
+                0x00001198        0x8 obj/ir_protocol_jvc_commands.o
+                0x00001198                ir_protocol_jvc_cmd_radio_volume_up
+ .text.ir_protocol_jvc_cmd_radio_volume_down
+                0x000011a0        0x8 obj/ir_protocol_jvc_commands.o
+                0x000011a0                ir_protocol_jvc_cmd_radio_volume_down
+ .text.ir_protocol_jvc_cmd_radio_play
+                0x000011a8        0x8 obj/ir_protocol_jvc_commands.o
+                0x000011a8                ir_protocol_jvc_cmd_radio_play
+ .text.ir_protocol_jvc_cmd_radio_pause
+                0x000011b0        0x8 obj/ir_protocol_jvc_commands.o
+                0x000011b0                ir_protocol_jvc_cmd_radio_pause
+ .text.ir_protocol_jvc_cmd_radio_stop
+                0x000011b8        0x8 obj/ir_protocol_jvc_commands.o
+                0x000011b8                ir_protocol_jvc_cmd_radio_stop
+ .text.ir_protocol_jvc_cmd_radio_bass_up
+                0x000011c0        0x8 obj/ir_protocol_jvc_commands.o
+                0x000011c0                ir_protocol_jvc_cmd_radio_bass_up
+ .text.ir_protocol_jvc_cmd_radio_bass_down
+                0x000011c8        0x8 obj/ir_protocol_jvc_commands.o
+                0x000011c8                ir_protocol_jvc_cmd_radio_bass_down
+ .text.ir_protocol_jvc_cmd_radio_sound_mode
+                0x000011d0        0x8 obj/ir_protocol_jvc_commands.o
+                0x000011d0                ir_protocol_jvc_cmd_radio_sound_mode
+ .text.ir_protocol_sony_prepare_transmit_buffer_fill_buffer
+                0x000011d8       0x48 obj/ir_protocol_sony.o
+ .text.ir_protocol_sony_irq_callback
+                0x00001220       0xda obj/ir_protocol_sony.o
+                0x00001220                ir_protocol_sony_irq_callback
+ .text.ir_protocol_sony_is_busy
+                0x000012fa        0xe obj/ir_protocol_sony.o
+                0x000012fa                ir_protocol_sony_is_busy
+ .text.ir_protocol_sony_set_timer
+                0x00001308       0x12 obj/ir_protocol_sony.o
+                0x00001308                ir_protocol_sony_set_timer
+ .text.ir_protocol_sony_transmit
+                0x0000131a       0xf6 obj/ir_protocol_sony.o
+                0x0000131a                ir_protocol_sony_transmit
+ .text.ir_protocol_sony_address_bdplayer
+                0x00001410        0xc obj/ir_protocol_sony_commands.o
+                0x00001410                ir_protocol_sony_address_bdplayer
+ .text.ir_protocol_sony_cmd_bdplayer_power
+                0x0000141c        0x8 obj/ir_protocol_sony_commands.o
+                0x0000141c                ir_protocol_sony_cmd_bdplayer_power
+ .text.ir_protocol_sony_cmd_bdplayer_play
+                0x00001424        0x8 obj/ir_protocol_sony_commands.o
+                0x00001424                ir_protocol_sony_cmd_bdplayer_play
+ .text.ir_protocol_sony_cmd_bdplayer_stop
+                0x0000142c        0x8 obj/ir_protocol_sony_commands.o
+                0x0000142c                ir_protocol_sony_cmd_bdplayer_stop
+ .text.ir_protocol_sony_cmd_bdplayer_pause
+                0x00001434        0x8 obj/ir_protocol_sony_commands.o
+                0x00001434                ir_protocol_sony_cmd_bdplayer_pause
+ .text.ir_protocol_sony_cmd_bdplayer_audio_language
+                0x0000143c        0x8 obj/ir_protocol_sony_commands.o
+                0x0000143c                ir_protocol_sony_cmd_bdplayer_audio_language
+ .text.ir_protocol_sony_cmd_bdplayer_subtitle_language
+                0x00001444        0x8 obj/ir_protocol_sony_commands.o
+                0x00001444                ir_protocol_sony_cmd_bdplayer_subtitle_language
+ .text.ir_protocol_sony_cmd_bdplayer_eject
+                0x0000144c        0x8 obj/ir_protocol_sony_commands.o
+                0x0000144c                ir_protocol_sony_cmd_bdplayer_eject
+ .text.ir_protocol_sony_cmd_bdplayer_return
+                0x00001454        0x8 obj/ir_protocol_sony_commands.o
+                0x00001454                ir_protocol_sony_cmd_bdplayer_return
+ .text.ir_protocol_sony_cmd_bdplayer_top_menu
+                0x0000145c        0x8 obj/ir_protocol_sony_commands.o
+                0x0000145c                ir_protocol_sony_cmd_bdplayer_top_menu
+ .text.ir_protocol_sony_cmd_bdplayer_pop_up_menu
+                0x00001464        0x8 obj/ir_protocol_sony_commands.o
+                0x00001464                ir_protocol_sony_cmd_bdplayer_pop_up_menu
+ .text.ir_protocol_sony_cmd_bdplayer_next
+                0x0000146c        0x8 obj/ir_protocol_sony_commands.o
+                0x0000146c                ir_protocol_sony_cmd_bdplayer_next
+ .text.ir_protocol_sony_cmd_bdplayer_previous
+                0x00001474        0x8 obj/ir_protocol_sony_commands.o
+                0x00001474                ir_protocol_sony_cmd_bdplayer_previous
+ .text.rpi_protocol_task_init
+                0x0000147c        0x2 obj/rpi_protocol_handler_i2c.o
+ .text.rpi_protocol_task_get_schedule_interval
+                0x0000147e       0x14 obj/rpi_protocol_handler_i2c.o
+ .text.rpi_protocol_task_get_state
+                0x00001492       0x30 obj/rpi_protocol_handler_i2c.o
+ .text.RPI_COMMAND_BUFFER_bytes_available
+                0x000014c2        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000014c2                RPI_COMMAND_BUFFER_bytes_available
+ .text.RPI_ANSWER_BUFFER_start_write
+                0x000014ca        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000014ca                RPI_ANSWER_BUFFER_start_write
+ .text.RPI_ANSWER_BUFFER_add_byte
+                0x000014d2        0xa obj/rpi_protocol_handler_i2c.o
+                0x000014d2                RPI_ANSWER_BUFFER_add_byte
+ .text.RPI_ANSWER_BUFFER_add_word
+                0x000014dc        0xa obj/rpi_protocol_handler_i2c.o
+                0x000014dc                RPI_ANSWER_BUFFER_add_word
+ .text.RPI_ANSWER_BUFFER_add_long
+                0x000014e6        0xc obj/rpi_protocol_handler_i2c.o
+                0x000014e6                RPI_ANSWER_BUFFER_add_long
+ .text.RPI_ANSWER_BUFFER_add_N_bytes
+                0x000014f2        0xc obj/rpi_protocol_handler_i2c.o
+                0x000014f2                RPI_ANSWER_BUFFER_add_N_bytes
+ .text.RPI_ANSWER_BUFFER_stop_write
+                0x000014fe        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000014fe                RPI_ANSWER_BUFFER_stop_write
+ .text.RPI_COMMAND_BUFFER_start_read
+                0x00001506        0x8 obj/rpi_protocol_handler_i2c.o
+                0x00001506                RPI_COMMAND_BUFFER_start_read
+ .text.RPI_COMMAND_BUFFER_get_byte
+                0x0000150e        0x8 obj/rpi_protocol_handler_i2c.o
+                0x0000150e                RPI_COMMAND_BUFFER_get_byte
+ .text.RPI_COMMAND_BUFFER_get_word
+                0x00001516        0x8 obj/rpi_protocol_handler_i2c.o
+                0x00001516                RPI_COMMAND_BUFFER_get_word
+ .text.RPI_COMMAND_BUFFER_get_long
+                0x0000151e        0x8 obj/rpi_protocol_handler_i2c.o
+                0x0000151e                RPI_COMMAND_BUFFER_get_long
+ .text.RPI_COMMAND_BUFFER_get_N_bytes
+                0x00001526        0xc obj/rpi_protocol_handler_i2c.o
+                0x00001526                RPI_COMMAND_BUFFER_get_N_bytes
+ .text.RPI_COMMAND_BUFFER_stop_read
+                0x00001532        0x6 obj/rpi_protocol_handler_i2c.o
+                0x00001532                RPI_COMMAND_BUFFER_stop_read
+ .text._set_finished_i2c
+                0x00001538       0x34 obj/rpi_protocol_handler_i2c.o
+ .text.RPI_COMMAND_BUFFER_init
+                0x0000156c        0x8 obj/rpi_protocol_handler_i2c.o
+                0x0000156c                RPI_COMMAND_BUFFER_init
+ .text.RPI_COMMAND_BUFFER_clear_all
+                0x00001574        0x8 obj/rpi_protocol_handler_i2c.o
+                0x00001574                RPI_COMMAND_BUFFER_clear_all
+ .text.RPI_COMMAND_BUFFER_start_write
+                0x0000157c        0x8 obj/rpi_protocol_handler_i2c.o
+                0x0000157c                RPI_COMMAND_BUFFER_start_write
+ .text.RPI_COMMAND_BUFFER_add_N_bytes
+                0x00001584        0xc obj/rpi_protocol_handler_i2c.o
+                0x00001584                RPI_COMMAND_BUFFER_add_N_bytes
+ .text.RPI_COMMAND_BUFFER_stop_write
+                0x00001590        0x8 obj/rpi_protocol_handler_i2c.o
+                0x00001590                RPI_COMMAND_BUFFER_stop_write
+ .text.RPI_ANSWER_BUFFER_init
+                0x00001598        0x8 obj/rpi_protocol_handler_i2c.o
+                0x00001598                RPI_ANSWER_BUFFER_init
+ .text.RPI_ANSWER_BUFFER_bytes_available
+                0x000015a0        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000015a0                RPI_ANSWER_BUFFER_bytes_available
+ .text.RPI_ANSWER_BUFFER_bytes_free
+                0x000015a8        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000015a8                RPI_ANSWER_BUFFER_bytes_free
+ .text.RPI_ANSWER_BUFFER_start_read
+                0x000015b0        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000015b0                RPI_ANSWER_BUFFER_start_read
+ .text.RPI_ANSWER_BUFFER_get_N_bytes
+                0x000015b8        0xc obj/rpi_protocol_handler_i2c.o
+                0x000015b8                RPI_ANSWER_BUFFER_get_N_bytes
+ .text.RPI_ANSWER_BUFFER_stop_read
+                0x000015c4        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000015c4                RPI_ANSWER_BUFFER_stop_read
+ .text.RPI_PROTOCOL_LEAVE_SLEEP_SIGNAL_init
+                0x000015cc        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000015cc                RPI_PROTOCOL_LEAVE_SLEEP_SIGNAL_init
+ .text.RPI_PROTOCOL_LEAVE_SLEEP_SIGNAL_send
+                0x000015d4        0xa obj/rpi_protocol_handler_i2c.o
+                0x000015d4                RPI_PROTOCOL_LEAVE_SLEEP_SIGNAL_send
+ .text.RPI_PROTOCOL_ENTER_SLEEP_SIGNAL_init
+                0x000015de        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000015de                RPI_PROTOCOL_ENTER_SLEEP_SIGNAL_init
+ .text.RPI_PROTOCOL_ENTER_SLEEP_SIGNAL_send
+                0x000015e6        0xa obj/rpi_protocol_handler_i2c.o
+                0x000015e6                RPI_PROTOCOL_ENTER_SLEEP_SIGNAL_send
+ .text.RPI_PROTOCOL_INVALID_COMMAND_RECEIVED_SIGNAL_init
+                0x000015f0        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000015f0                RPI_PROTOCOL_INVALID_COMMAND_RECEIVED_SIGNAL_init
+ .text.RPI_PROTOCOL_COMMAND_RECEIVED_SIGNAL_init
+                0x000015f8        0x8 obj/rpi_protocol_handler_i2c.o
+                0x000015f8                RPI_PROTOCOL_COMMAND_RECEIVED_SIGNAL_init
+ .text.RPI_PROTOCOL_COMMAND_RECEIVED_SIGNAL_send
+                0x00001600        0xa obj/rpi_protocol_handler_i2c.o
+                0x00001600                RPI_PROTOCOL_COMMAND_RECEIVED_SIGNAL_send
+ .text.rpi_protocol_task_run
+                0x0000160a      0x34c obj/rpi_protocol_handler_i2c.o
+ .text.RPI_PROTOCOL_COMMAND_RECEIVED_SIGNAL_connect
+                0x00001956        0xa obj/rpi_protocol_handler_i2c.o
+                0x00001956                RPI_PROTOCOL_COMMAND_RECEIVED_SIGNAL_connect
+ .text.rpi_protocol_init
+                0x00001960       0x82 obj/rpi_protocol_handler_i2c.o
+                0x00001960                rpi_protocol_init
+ .text.io_output_controller_task_init
+                0x000019e2        0x2 obj/io_output_controller.o
+                0x000019e2                io_output_controller_task_init
+ .text.io_output_controller_task_get_schedule_interval
+                0x000019e4        0x6 obj/io_output_controller.o
+                0x000019e4                io_output_controller_task_get_schedule_interval
+ .text.io_output_controller_task_get_state
+                0x000019ea        0xa obj/io_output_controller.o
+                0x000019ea                io_output_controller_task_get_state
+ .text.io_output_controller_task_run
+                0x000019f4       0xd4 obj/io_output_controller.o
+                0x000019f4                io_output_controller_task_run
+ .text.io_output_controller_task_background_run
+                0x00001ac8        0x2 obj/io_output_controller.o
+                0x00001ac8                io_output_controller_task_background_run
+ .text.io_input_controller_init
+                0x00001aca        0x2 obj/io_input_controller.o
+                0x00001aca                io_input_controller_init
+ .text.io_input_controller_check_state
+                0x00001acc       0xe0 obj/io_input_controller.o
+                0x00001acc                io_input_controller_check_state
+ .text.io_input_controller_task_init
+                0x00001bac        0x8 obj/io_input_controller.o
+                0x00001bac                io_input_controller_task_init
+ .text.io_input_controller_task_get_schedule_interval
+                0x00001bb4        0x6 obj/io_input_controller.o
+                0x00001bb4                io_input_controller_task_get_schedule_interval
+ .text.io_input_controller_task_get_state
+                0x00001bba       0x12 obj/io_input_controller.o
+                0x00001bba                io_input_controller_task_get_state
+ .text.io_input_controller_task_run
+                0x00001bcc       0x2a obj/io_input_controller.o
+                0x00001bcc                io_input_controller_task_run
+ .text.io_input_controller_task_background_run
+                0x00001bf6        0x2 obj/io_input_controller.o
+                0x00001bf6                io_input_controller_task_background_run
+ .text.command_controller_task_get_schedule_interval
+                0x00001bf8        0x6 obj/command_controller.o
+ .text.command_controller_task_get_state
+                0x00001bfe       0x3e obj/command_controller.o
+ .text.command_controller_task_run
+                0x00001c3c       0xa4 obj/command_controller.o
+ .text.command_controller_task_background_run
+                0x00001ce0        0x2 obj/command_controller.o
+ .text.command_controller_task_init
+                0x00001ce2        0x2 obj/command_controller.o
+ .text.command_controller_init
+                0x00001ce4        0x8 obj/command_controller.o
+                0x00001ce4                command_controller_init
+ .text.command_controller_register_handler
+                0x00001cec       0x32 obj/command_controller.o
+                0x00001cec                command_controller_register_handler
+ .text.rpi_cmd_handler_set_request
+                0x00001d1e        0xa obj/rpi_command_handler.o
+                0x00001d1e                rpi_cmd_handler_set_request
+ .text.rpi_cmd_handler_get_protocol
+                0x00001d28        0xa obj/rpi_command_handler.o
+                0x00001d28                rpi_cmd_handler_get_protocol
+ .text.rpi_cmd_handler_set_unrequested
+                0x00001d32        0xa obj/rpi_command_handler.o
+                0x00001d32                rpi_cmd_handler_set_unrequested
+ .text.rpi_cmd_handler_is_requested
+                0x00001d3c       0x12 obj/rpi_command_handler.o
+                0x00001d3c                rpi_cmd_handler_is_requested
+ .text.rpi_cmd_handler_get_command_code
+                0x00001d4e       0x14 obj/rpi_command_handler.o
+                0x00001d4e                rpi_cmd_handler_get_command_code
+ .text.rpi_cmd_default_handler
+                0x00001d62       0x12 obj/rpi_command_handler.o
+                0x00001d62                rpi_cmd_default_handler
+ .text.rpi_command_handler_slot_cmd_received_CALLBACK
+                0x00001d74        0xa obj/rpi_command_handler.o
+ .text.RPI_CMD_HANDLER_SLOT_CMD_RECEIVED_connect
+                0x00001d7e       0x12 obj/rpi_command_handler.o
+                0x00001d7e                RPI_CMD_HANDLER_SLOT_CMD_RECEIVED_connect
+ .text.rpi_cmd_handler_init
+                0x00001d90       0x10 obj/rpi_command_handler.o
+                0x00001d90                rpi_cmd_handler_init
+ .text.rpi_cmd_handler_table_get_size
+                0x00001da0        0x4 obj/rpi_command_handler_table.o
+                0x00001da0                rpi_cmd_handler_table_get_size
+ .text.rpi_cmd_get_version
+                0x00001da4       0x4a obj/rpi_cmd_handler_system.o
+                0x00001da4                rpi_cmd_get_version
+ .text.rpi_cmd_handler_ir_remote
+                0x00001dee       0xa8 obj/rpi_command_handler_ir_remote.o
+                0x00001dee                rpi_cmd_handler_ir_remote
+ .text.rpi_cmd_handler_ir_remote_samsung
+                0x00001e96      0x172 obj/rpi_cmd_handler_ir_remote_samsung.o
+                0x00001e96                rpi_cmd_handler_ir_remote_samsung
+ .text.rpi_cmd_handler_ir_remote_jvc
+                0x00002008       0x8a obj/rpi_cmd_handler_ir_remote_jvc.o
+                0x00002008                rpi_cmd_handler_ir_remote_jvc
+ .text.rpi_cmd_handler_ir_remote_sony
+                0x00002092       0xcc obj/rpi_cmd_handler_ir_remote_sony.o
+                0x00002092                rpi_cmd_handler_ir_remote_sony
+ .text.rtc_driver_init
+                0x0000215e       0x5e obj/rtc_driver_atmega1284p.o
+                0x0000215e                rtc_driver_init
+ .text.local_rtc_timer_gettime_u32
+                0x000021bc       0x4a obj/rtc_driver_atmega1284p.o
+                0x000021bc                local_rtc_timer_gettime_u32
+ .text.local_rtc_timer_gettime_u8
+                0x00002206        0x6 obj/rtc_driver_atmega1284p.o
+                0x00002206                local_rtc_timer_gettime_u8
+ .text.local_rtc_timer_gettime_u16
+                0x0000220c        0x6 obj/rtc_driver_atmega1284p.o
+                0x0000220c                local_rtc_timer_gettime_u16
+ .text.local_rtc_timer_istimeup_u8
+                0x00002212       0x26 obj/rtc_driver_atmega1284p.o
+                0x00002212                local_rtc_timer_istimeup_u8
+ .text.local_rtc_timer_istimeup_u16
+                0x00002238       0x28 obj/rtc_driver_atmega1284p.o
+                0x00002238                local_rtc_timer_istimeup_u16
+ .text.local_rtc_timer_istimeup_u32
+                0x00002260       0x48 obj/rtc_driver_atmega1284p.o
+                0x00002260                local_rtc_timer_istimeup_u32
+ .text.__vector_9
+                0x000022a8       0x60 obj/rtc_driver_atmega1284p.o
+                0x000022a8                __vector_9
+ .text.clock_driver_init
+                0x00002308       0x12 obj/clock_driver_atmega1284p.o
+                0x00002308                clock_driver_init
+ .text.gpio_driver_set_direction
+                0x0000231a       0x64 obj/gpio_driver_atmega1284p.o
+                0x0000231a                gpio_driver_set_direction
+ .text.gpio_driver_set_level
+                0x0000237e       0xbc obj/gpio_driver_atmega1284p.o
+                0x0000237e                gpio_driver_set_level
+ .text.gpio_driver_init_pin
+                0x0000243a       0x34 obj/gpio_driver_atmega1284p.o
+                0x0000243a                gpio_driver_init_pin
+ .text.gpio_driver_init
+                0x0000246e      0x140 obj/gpio_driver_atmega1284p.o
+                0x0000246e                gpio_driver_init
+ .text.gpio_driver_toggle_level
+                0x000025ae       0x3c obj/gpio_driver_atmega1284p.o
+                0x000025ae                gpio_driver_toggle_level
+ .text.gpio_driver_get_level
+                0x000025ea       0x3a obj/gpio_driver_atmega1284p.o
+                0x000025ea                gpio_driver_get_level
+ .text.I2C0_STATUS_set
+                0x00002624        0xe obj/i2c0_driver_status.o
+                0x00002624                I2C0_STATUS_set
+ .text.I2C0_STATUS_is_set
+                0x00002632       0x14 obj/i2c0_driver_status.o
+                0x00002632                I2C0_STATUS_is_set
+ .text.I2C0_STATUS_unset
+                0x00002646        0xc obj/i2c0_driver_status.o
+                0x00002646                I2C0_STATUS_unset
+ .text.I2C0_TX_BUFFER_init
+                0x00002652        0x8 obj/i2c0_driver_atmega1284p.o
+                0x00002652                I2C0_TX_BUFFER_init
+ .text.I2C0_TX_BUFFER_bytes_available
+                0x0000265a        0x8 obj/i2c0_driver_atmega1284p.o
+                0x0000265a                I2C0_TX_BUFFER_bytes_available
+ .text.I2C0_TX_BUFFER_clear_all
+                0x00002662        0x8 obj/i2c0_driver_atmega1284p.o
+                0x00002662                I2C0_TX_BUFFER_clear_all
+ .text.I2C0_TX_BUFFER_start_write
+                0x0000266a        0x8 obj/i2c0_driver_atmega1284p.o
+                0x0000266a                I2C0_TX_BUFFER_start_write
+ .text.I2C0_TX_BUFFER_add_N_bytes
+                0x00002672        0xc obj/i2c0_driver_atmega1284p.o
+                0x00002672                I2C0_TX_BUFFER_add_N_bytes
+ .text.I2C0_TX_BUFFER_stop_write
+                0x0000267e        0x8 obj/i2c0_driver_atmega1284p.o
+                0x0000267e                I2C0_TX_BUFFER_stop_write
+ .text.I2C0_TX_BUFFER_start_read
+                0x00002686        0x8 obj/i2c0_driver_atmega1284p.o
+                0x00002686                I2C0_TX_BUFFER_start_read
+ .text.I2C0_TX_BUFFER_get_byte
+                0x0000268e        0x8 obj/i2c0_driver_atmega1284p.o
+                0x0000268e                I2C0_TX_BUFFER_get_byte
+ .text.I2C0_TX_BUFFER_stop_read
+                0x00002696        0x8 obj/i2c0_driver_atmega1284p.o
+                0x00002696                I2C0_TX_BUFFER_stop_read
+ .text.I2C0_RX_BUFFER_init
+                0x0000269e        0x8 obj/i2c0_driver_atmega1284p.o
+                0x0000269e                I2C0_RX_BUFFER_init
+ .text.I2C0_RX_BUFFER_bytes_available
+                0x000026a6        0x8 obj/i2c0_driver_atmega1284p.o
+                0x000026a6                I2C0_RX_BUFFER_bytes_available
+ .text.I2C0_RX_BUFFER_clear_all
+                0x000026ae        0x8 obj/i2c0_driver_atmega1284p.o
+                0x000026ae                I2C0_RX_BUFFER_clear_all
+ .text.I2C0_RX_BUFFER_start_write
+                0x000026b6        0x8 obj/i2c0_driver_atmega1284p.o
+                0x000026b6                I2C0_RX_BUFFER_start_write
+ .text.I2C0_RX_BUFFER_add_byte
+                0x000026be        0xa obj/i2c0_driver_atmega1284p.o
+                0x000026be                I2C0_RX_BUFFER_add_byte
+ .text.I2C0_RX_BUFFER_stop_write
+                0x000026c8        0x8 obj/i2c0_driver_atmega1284p.o
+                0x000026c8                I2C0_RX_BUFFER_stop_write
+ .text.I2C0_RX_BUFFER_start_read
+                0x000026d0        0x8 obj/i2c0_driver_atmega1284p.o
+                0x000026d0                I2C0_RX_BUFFER_start_read
+ .text.I2C0_RX_BUFFER_get_N_bytes
+                0x000026d8        0xc obj/i2c0_driver_atmega1284p.o
+                0x000026d8                I2C0_RX_BUFFER_get_N_bytes
+ .text.I2C0_RX_BUFFER_stop_read
+                0x000026e4        0x8 obj/i2c0_driver_atmega1284p.o
+                0x000026e4                I2C0_RX_BUFFER_stop_read
+ .text.i2c0_driver_initialize
+                0x000026ec        0x4 obj/i2c0_driver_atmega1284p.o
+                0x000026ec                i2c0_driver_initialize
+ .text.i2c0_driver_configure
+                0x000026f0       0xb8 obj/i2c0_driver_atmega1284p.o
+                0x000026f0                i2c0_driver_configure
+ .text.i2c0_driver_power_off
+                0x000027a8       0x1a obj/i2c0_driver_atmega1284p.o
+                0x000027a8                i2c0_driver_power_off
+ .text.i2c0_driver_bytes_available
+                0x000027c2        0x4 obj/i2c0_driver_atmega1284p.o
+                0x000027c2                i2c0_driver_bytes_available
+ .text.i2c0_driver_get_N_bytes
+                0x000027c6       0x2e obj/i2c0_driver_atmega1284p.o
+                0x000027c6                i2c0_driver_get_N_bytes
+ .text.i2c0_driver_set_N_bytes
+                0x000027f4       0x26 obj/i2c0_driver_atmega1284p.o
+                0x000027f4                i2c0_driver_set_N_bytes
+ .text.i2c0_driver_is_ready_for_rx
+                0x0000281a       0x16 obj/i2c0_driver_atmega1284p.o
+                0x0000281a                i2c0_driver_is_ready_for_rx
+ .text.i2c0_driver_is_ready_for_tx
+                0x00002830        0x4 obj/i2c0_driver_atmega1284p.o
+                0x00002830                i2c0_driver_is_ready_for_tx
+ .text.i2c0_driver_start_rx
+                0x00002834       0x28 obj/i2c0_driver_atmega1284p.o
+                0x00002834                i2c0_driver_start_rx
+ .text.i2c0_driver_wait_for_rx
+                0x0000285c       0x36 obj/i2c0_driver_atmega1284p.o
+                0x0000285c                i2c0_driver_wait_for_rx
+ .text.i2c0_driver_stop_rx
+                0x00002892        0xa obj/i2c0_driver_atmega1284p.o
+                0x00002892                i2c0_driver_stop_rx
+ .text.i2c0_driver_start_tx
+                0x0000289c       0x24 obj/i2c0_driver_atmega1284p.o
+                0x0000289c                i2c0_driver_start_tx
+ .text.i2c0_driver_wait_for_tx
+                0x000028c0        0x2 obj/i2c0_driver_atmega1284p.o
+                0x000028c0                i2c0_driver_wait_for_tx
+ .text.i2c0_driver_stop_tx
+                0x000028c2        0xa obj/i2c0_driver_atmega1284p.o
+                0x000028c2                i2c0_driver_stop_tx
+ .text.i2c0_driver_clear_rx_buffer
+                0x000028cc        0x4 obj/i2c0_driver_atmega1284p.o
+                0x000028cc                i2c0_driver_clear_rx_buffer
+ .text.i2c0_driver_clear_tx_buffer
+                0x000028d0        0x4 obj/i2c0_driver_atmega1284p.o
+                0x000028d0                i2c0_driver_clear_tx_buffer
+ .text.i2c0_driver_set_address
+                0x000028d4        0x8 obj/i2c0_driver_atmega1284p.o
+                0x000028d4                i2c0_driver_set_address
+ .text.i2c0_driver_mutex_request
+                0x000028dc       0x18 obj/i2c0_driver_atmega1284p.o
+                0x000028dc                i2c0_driver_mutex_request
+ .text.i2c0_driver_mutex_release
+                0x000028f4        0xa obj/i2c0_driver_atmega1284p.o
+                0x000028f4                i2c0_driver_mutex_release
+ .text.__vector_26
+                0x000028fe      0x1e2 obj/i2c0_driver_atmega1284p.o
+                0x000028fe                __vector_26
+ .text.usart0_driver_initialize
+                0x00002ae0        0x2 obj/usart0_driver_atmega1284p.o
+                0x00002ae0                usart0_driver_initialize
+ .text.usart0_driver_configure
+                0x00002ae2       0xe2 obj/usart0_driver_atmega1284p.o
+                0x00002ae2                usart0_driver_configure
+ .text.usart0_driver_power_off
+                0x00002bc4       0x10 obj/usart0_driver_atmega1284p.o
+                0x00002bc4                usart0_driver_power_off
+ .text.usart0_driver_bytes_available
+                0x00002bd4        0x8 obj/usart0_driver_atmega1284p.o
+                0x00002bd4                usart0_driver_bytes_available
+ .text.usart0_driver_get_N_bytes
+                0x00002bdc       0x46 obj/usart0_driver_atmega1284p.o
+                0x00002bdc                usart0_driver_get_N_bytes
+ .text.usart0_driver_set_N_bytes
+                0x00002c22       0x38 obj/usart0_driver_atmega1284p.o
+                0x00002c22                usart0_driver_set_N_bytes
+ .text.usart0_driver_is_ready_for_rx
+                0x00002c5a        0x4 obj/usart0_driver_atmega1284p.o
+                0x00002c5a                usart0_driver_is_ready_for_rx
+ .text.usart0_driver_start_rx
+                0x00002c5e       0x18 obj/usart0_driver_atmega1284p.o
+                0x00002c5e                usart0_driver_start_rx
+ .text.usart0_driver_wait_for_rx
+                0x00002c76        0x2 obj/usart0_driver_atmega1284p.o
+                0x00002c76                usart0_driver_wait_for_rx
+ .text.usart0_driver_stop_rx
+                0x00002c78        0xc obj/usart0_driver_atmega1284p.o
+                0x00002c78                usart0_driver_stop_rx
+ .text.usart0_driver_is_ready_for_tx
+                0x00002c84        0xc obj/usart0_driver_atmega1284p.o
+                0x00002c84                usart0_driver_is_ready_for_tx
+ .text.usart0_driver_start_tx
+                0x00002c90       0x38 obj/usart0_driver_atmega1284p.o
+                0x00002c90                usart0_driver_start_tx
+ .text.usart0_driver_wait_for_tx
+                0x00002cc8        0x2 obj/usart0_driver_atmega1284p.o
+                0x00002cc8                usart0_driver_wait_for_tx
+ .text.usart0_driver_stop_tx
+                0x00002cca        0xe obj/usart0_driver_atmega1284p.o
+                0x00002cca                usart0_driver_stop_tx
+ .text.usart0_driver_clear_rx_buffer
+                0x00002cd8        0x8 obj/usart0_driver_atmega1284p.o
+                0x00002cd8                usart0_driver_clear_rx_buffer
+ .text.usart0_driver_clear_tx_buffer
+                0x00002ce0        0x8 obj/usart0_driver_atmega1284p.o
+                0x00002ce0                usart0_driver_clear_tx_buffer
+ .text.usart0_driver_set_address
+                0x00002ce8        0x2 obj/usart0_driver_atmega1284p.o
+                0x00002ce8                usart0_driver_set_address
+ .text.usart0_driver_mutex_request
+                0x00002cea        0x4 obj/usart0_driver_atmega1284p.o
+                0x00002cea                usart0_driver_mutex_request
+ .text.usart0_driver_mutex_release
+                0x00002cee        0x2 obj/usart0_driver_atmega1284p.o
+                0x00002cee                usart0_driver_mutex_release
+ .text.__vector_22
+                0x00002cf0       0x68 obj/usart0_driver_atmega1284p.o
+                0x00002cf0                __vector_22
+ .text.__vector_20
+                0x00002d58       0x88 obj/usart0_driver_atmega1284p.o
+                0x00002d58                __vector_20
+ .text.timer0_driver_start
+                0x00002de0       0x20 obj/timer0_driver_atmega1284p.o
+                0x00002de0                timer0_driver_start
+ .text.timer0_driver_stop
+                0x00002e00        0xc obj/timer0_driver_atmega1284p.o
+                0x00002e00                timer0_driver_stop
+ .text.timer0_driver_init
+                0x00002e0c        0x4 obj/timer0_driver_atmega1284p.o
+                0x00002e0c                timer0_driver_init
+ .text.timer0_driver_configure
+                0x00002e10       0x7c obj/timer0_driver_atmega1284p.o
+                0x00002e10                timer0_driver_configure
+ .text.__vector_16
+                0x00002e8c       0x5a obj/timer0_driver_atmega1284p.o
+                0x00002e8c                __vector_16
+ .text.__vector_18
+                0x00002ee6       0x14 obj/timer0_driver_atmega1284p.o
+                0x00002ee6                __vector_18
+ .text.__vector_17
+                0x00002efa       0x14 obj/timer0_driver_atmega1284p.o
+                0x00002efa                __vector_17
+ .text.timer1_driver_init
+                0x00002f0e        0x6 obj/timer1_driver_atmega1284p.o
+                0x00002f0e                timer1_driver_init
+ .text.timer1_driver_configure
+                0x00002f14      0x192 obj/timer1_driver_atmega1284p.o
+                0x00002f14                timer1_driver_configure
+ .text.timer1_driver_start
+                0x000030a6       0x5a obj/timer1_driver_atmega1284p.o
+                0x000030a6                timer1_driver_start
+ .text.timer1_driver_stop
+                0x00003100        0x6 obj/timer1_driver_atmega1284p.o
+                0x00003100                timer1_driver_stop
+ .text.__vector_13
+                0x00003106       0xd2 obj/timer1_driver_atmega1284p.o
+                0x00003106                __vector_13
+ .text.__vector_15
+                0x000031d8       0x14 obj/timer1_driver_atmega1284p.o
+                0x000031d8                __vector_15
+ .text.__vector_14
+                0x000031ec       0x14 obj/timer1_driver_atmega1284p.o
+                0x000031ec                __vector_14
+ .text.sensor_initialization
+                0x00003200        0x2 obj/sensor_initialization.o
+                0x00003200                sensor_initialization
+ .text.button_initialization
+                0x00003202        0x6 obj/button_initialization.o
+                0x00003202                button_initialization
+ .text.output_initialization
+                0x00003208        0x2 obj/output_initialization.o
+                0x00003208                output_initialization
+ .text.protocol_initialization
+                0x0000320a        0xc obj/protocol_initialization.o
+                0x0000320a                protocol_initialization
+ .text.command_initialization
+                0x00003216        0x8 obj/command_initialization.o
+                0x00003216                command_initialization
+ .text.task_initialization
+                0x0000321e       0x20 obj/task_initialization.o
+                0x0000321e                task_initialization
+ .text.system_initialization
+                0x0000323e       0x2e obj/system_initialization.o
+                0x0000323e                system_initialization
+ .text.power_initialization
+                0x0000326c        0x2 obj/power_initialization.o
+                0x0000326c                power_initialization
+ .text.initialization
+                0x0000326e       0x26 obj/initialization.o
+                0x0000326e                initialization
+ .text.libgcc   0x00003294       0x12 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_tablejump2.o)
+                0x00003294                __tablejump2__
+ .text.libgcc.prologue
+                0x000032a6       0x38 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_prologue.o)
+                0x000032a6                __prologue_saves__
+ .text.libgcc.prologue
+                0x000032de       0x36 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_epilogue.o)
+                0x000032de                __epilogue_restores__
+                0x00003314                . = ALIGN (0x2)
+ *(.fini9)
+ .fini9         0x00003314        0x0 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+                0x00003314                exit
+                0x00003314                _exit
+ *(.fini9)
+ *(.fini8)
+ *(.fini8)
+ *(.fini7)
+ *(.fini7)
+ *(.fini6)
+ *(.fini6)
+ *(.fini5)
+ *(.fini5)
+ *(.fini4)
+ *(.fini4)
+ *(.fini3)
+ *(.fini3)
+ *(.fini2)
+ *(.fini2)
+ *(.fini1)
+ *(.fini1)
+ *(.fini0)
+ .fini0         0x00003314        0x4 /usr/lib/gcc/avr/5.4.0/avr51/libgcc.a(_exit.o)
+ *(.fini0)
+                0x00003318                _etext = .
+
+.data           0x00800100      0x29a load address 0x00003318
+                0x00800100                PROVIDE (__data_start, .)
+ *(.data)
+ .data          0x00800100       0x40 obj/board_191005.o
+                0x00800100                p_pin_GPIO_PORT_D_GPIO_PIN_7
+                0x00800102                p_pin_GPIO_PORT_D_GPIO_PIN_6
+                0x00800104                p_pin_GPIO_PORT_D_GPIO_PIN_5
+                0x00800106                p_pin_GPIO_PORT_D_GPIO_PIN_4
+                0x00800108                p_pin_GPIO_PORT_D_GPIO_PIN_3
+                0x0080010a                p_pin_GPIO_PORT_D_GPIO_PIN_2
+                0x0080010c                p_pin_GPIO_PORT_D_GPIO_PIN_1
+                0x0080010e                p_pin_GPIO_PORT_D_GPIO_PIN_0
+                0x00800110                p_pin_GPIO_PORT_C_GPIO_PIN_7
+                0x00800112                p_pin_GPIO_PORT_C_GPIO_PIN_6
+                0x00800114                p_pin_GPIO_PORT_C_GPIO_PIN_5
+                0x00800116                p_pin_GPIO_PORT_C_GPIO_PIN_4
+                0x00800118                p_pin_GPIO_PORT_C_GPIO_PIN_3
+                0x0080011a                p_pin_GPIO_PORT_C_GPIO_PIN_2
+                0x0080011c                p_pin_GPIO_PORT_C_GPIO_PIN_1
+                0x0080011e                p_pin_GPIO_PORT_C_GPIO_PIN_0
+                0x00800120                p_pin_GPIO_PORT_B_GPIO_PIN_7
+                0x00800122                p_pin_GPIO_PORT_B_GPIO_PIN_6
+                0x00800124                p_pin_GPIO_PORT_B_GPIO_PIN_5
+                0x00800126                p_pin_GPIO_PORT_B_GPIO_PIN_4
+                0x00800128                p_pin_GPIO_PORT_B_GPIO_PIN_3
+                0x0080012a                p_pin_GPIO_PORT_B_GPIO_PIN_2
+                0x0080012c                p_pin_GPIO_PORT_B_GPIO_PIN_1
+                0x0080012e                p_pin_GPIO_PORT_B_GPIO_PIN_0
+                0x00800130                p_pin_GPIO_PORT_A_GPIO_PIN_7
+                0x00800132                p_pin_GPIO_PORT_A_GPIO_PIN_6
+                0x00800134                p_pin_GPIO_PORT_A_GPIO_PIN_5
+                0x00800136                p_pin_GPIO_PORT_A_GPIO_PIN_4
+                0x00800138                p_pin_GPIO_PORT_A_GPIO_PIN_3
+                0x0080013a                p_pin_GPIO_PORT_A_GPIO_PIN_2
+                0x0080013c                p_pin_GPIO_PORT_A_GPIO_PIN_1
+                0x0080013e                p_pin_GPIO_PORT_A_GPIO_PIN_0
+ .data          0x00800140       0x9c obj/system_interface.o
+ .data          0x008001dc        0x5 obj/mcu_task_controller.o
+ .data          0x008001e1       0x29 obj/ir_remote_mcu_task.o
+ .data          0x0080020a       0x55 obj/rpi_protocol_handler_i2c.o
+ .data          0x0080025f       0x19 obj/command_controller.o
+ .data          0x00800278       0x14 obj/rpi_command_handler.o
+ .data          0x0080028c        0x6 obj/rpi_command_handler_table.o
+                0x0080028c                rpi_cmd_handler_table
+ .data          0x00800292       0x16 obj/i2c0_driver_atmega1284p.o
+ .data          0x008002a8       0x16 obj/usart0_driver_atmega1284p.o
+ .data          0x008002be       0x4b obj/task_initialization.o
+ *(.data*)
+ *(.gnu.linkonce.d*)
+ *(.rodata)
+ .rodata        0x00800309       0x60 obj/board_191005.o
+                0x00800309                UNUSED_D7
+                0x0080030c                UNUSED_D6
+                0x0080030f                UNUSED_D5
+                0x00800312                UNUSED_D4
+                0x00800315                UNUSED_D3
+                0x00800318                UNUSED_D2
+                0x0080031b                UART0_TX
+                0x0080031e                UART0_RX
+                0x00800321                XT1
+                0x00800324                XT0
+                0x00800327                UNUSED_C5
+                0x0080032a                UNUSED_C4
+                0x0080032d                UNUSED_C3
+                0x00800330                UNUSED_C2
+                0x00800333                I2C_SDA
+                0x00800336                I2C_SCL
+                0x00800339                PROG_SCK
+                0x0080033c                PROG_MISO
+                0x0080033f                PROG_MOSI
+                0x00800342                IR_MOD_OUT
+                0x00800345                IR_CARRIER_OUT
+                0x00800348                UNUSED_B2
+                0x0080034b                IR_CARRIER_IN
+                0x0080034e                UNUSED_B0
+                0x00800351                UNUSED_A7
+                0x00800354                UNUSED_A6
+                0x00800357                UNUSED_A5
+                0x0080035a                UNUSED_A4
+                0x0080035d                UNUSED_A3
+                0x00800360                LED_RED
+                0x00800363                LED_BLUE
+                0x00800366                LED_GREEN
+ .rodata        0x00800369       0x2a obj/system_interface.o
+                0x00800369                i_system
+ .rodata        0x00800393        0x6 obj/rpi_protocol_handler_i2c.o
+ *(.rodata*)
+ *(.gnu.linkonce.r*)
+                0x0080039a                . = ALIGN (0x2)
+ *fill*         0x00800399        0x1 
+                0x0080039a                _edata = .
+                0x0080039a                PROVIDE (__data_end, .)
+
+.bss            0x0080039a      0x4f5
+                0x0080039a                PROVIDE (__bss_start, .)
+ *(.bss)
+ .bss           0x0080039a        0x1 obj/signal_slot_interface.o
+ .bss           0x0080039b        0x4 obj/mcu_task_controller.o
+ .bss           0x0080039f       0x39 obj/local_event_task.o
+ .bss           0x008003d8       0x26 obj/ir_remote_mcu_task.o
+ .bss           0x008003fe       0x88 obj/ir_protocol_samsung.o
+ .bss           0x00800486       0x89 obj/ir_protocol_jvc.o
+ .bss           0x0080050f       0x8c obj/ir_protocol_sony.o
+ .bss           0x0080059b       0xad obj/rpi_protocol_handler_i2c.o
+ .bss           0x00800648        0x5 obj/io_output_controller.o
+ .bss           0x0080064d        0x7 obj/io_input_controller.o
+ .bss           0x00800654        0x6 obj/command_controller.o
+ .bss           0x0080065a        0x6 obj/rpi_command_handler.o
+ .bss           0x00800660        0x5 obj/rtc_driver_atmega1284p.o
+ .bss           0x00800665      0x10b obj/i2c0_driver_atmega1284p.o
+ .bss           0x00800770      0x102 obj/usart0_driver_atmega1284p.o
+ .bss           0x00800872        0x6 obj/timer0_driver_atmega1284p.o
+ .bss           0x00800878       0x12 obj/timer1_driver_atmega1284p.o
+ *(.bss*)
+ *(COMMON)
+ COMMON         0x0080088a        0x3 obj/i2c0_driver_status.o
+                0x0080088a                __I2C0_STATUS_module_status
+ COMMON         0x0080088d        0x2 obj/usart0_driver_atmega1284p.o
+                0x0080088d                __local_usart_status_module_status
+                0x0080088f                PROVIDE (__bss_end, .)
+                0x00003318                __data_load_start = LOADADDR (.data)
+                0x000035b2                __data_load_end = (__data_load_start + SIZEOF (.data))
+
+.noinit         0x0080088f        0x0
+                [!provide]                PROVIDE (__noinit_start, .)
+ *(.noinit*)
+                [!provide]                PROVIDE (__noinit_end, .)
+                0x0080088f                _end = .
+                [!provide]                PROVIDE (__heap_start, .)
+
+.eeprom         0x00810000        0x0
+ *(.eeprom*)
+                0x00810000                __eeprom_end = .
+
+.fuse
+ *(.fuse)
+ *(.lfuse)
+ *(.hfuse)
+ *(.efuse)
+
+.lock
+ *(.lock*)
+
+.signature
+ *(.signature*)
+
+.user_signatures
+ *(.user_signatures*)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x11
+ *(.comment)
+ .comment       0x00000000       0x11 obj/main_rpi_hat.o
+                                 0x12 (size before relaxing)
+ .comment       0x00000011       0x12 obj/board_191005.o
+ .comment       0x00000011       0x12 obj/local_module_status.o
+ .comment       0x00000011       0x12 obj/local_mutex.o
+ .comment       0x00000011       0x12 obj/local_msg_buffer.o
+ .comment       0x00000011       0x12 obj/signal_slot_interface.o
+ .comment       0x00000011       0x12 obj/system_interface.o
+ .comment       0x00000011       0x12 obj/time_management.o
+ .comment       0x00000011       0x12 obj/mcu_task_controller.o
+ .comment       0x00000011       0x12 obj/mcu_idle_task.o
+ .comment       0x00000011       0x12 obj/local_event_task.o
+ .comment       0x00000011       0x12 obj/ir_remote_mcu_task.o
+ .comment       0x00000011       0x12 obj/ir_protocol_samsung.o
+ .comment       0x00000011       0x12 obj/ir_protocol_samsung_commands.o
+ .comment       0x00000011       0x12 obj/ir_protocol_jvc.o
+ .comment       0x00000011       0x12 obj/ir_protocol_jvc_commands.o
+ .comment       0x00000011       0x12 obj/ir_protocol_sony.o
+ .comment       0x00000011       0x12 obj/ir_protocol_sony_commands.o
+ .comment       0x00000011       0x12 obj/rpi_protocol_handler_i2c.o
+ .comment       0x00000011       0x12 obj/io_output_controller.o
+ .comment       0x00000011       0x12 obj/io_input_controller.o
+ .comment       0x00000011       0x12 obj/command_controller.o
+ .comment       0x00000011       0x12 obj/rpi_command_handler.o
+ .comment       0x00000011       0x12 obj/rpi_command_handler_table.o
+ .comment       0x00000011       0x12 obj/rpi_cmd_handler_system.o
+ .comment       0x00000011       0x12 obj/rpi_command_handler_ir_remote.o
+ .comment       0x00000011       0x12 obj/rpi_cmd_handler_ir_remote_samsung.o
+ .comment       0x00000011       0x12 obj/rpi_cmd_handler_ir_remote_jvc.o
+ .comment       0x00000011       0x12 obj/rpi_cmd_handler_ir_remote_sony.o
+ .comment       0x00000011       0x12 obj/rtc_driver_atmega1284p.o
+ .comment       0x00000011       0x12 obj/clock_driver_atmega1284p.o
+ .comment       0x00000011       0x12 obj/gpio_driver_atmega1284p.o
+ .comment       0x00000011       0x12 obj/i2c0_driver_status.o
+ .comment       0x00000011       0x12 obj/i2c0_driver_atmega1284p.o
+ .comment       0x00000011       0x12 obj/usart0_driver_atmega1284p.o
+ .comment       0x00000011       0x12 obj/timer0_driver_atmega1284p.o
+ .comment       0x00000011       0x12 obj/timer1_driver_atmega1284p.o
+ .comment       0x00000011       0x12 obj/sensor_initialization.o
+ .comment       0x00000011       0x12 obj/button_initialization.o
+ .comment       0x00000011       0x12 obj/output_initialization.o
+ .comment       0x00000011       0x12 obj/protocol_initialization.o
+ .comment       0x00000011       0x12 obj/command_initialization.o
+ .comment       0x00000011       0x12 obj/task_initialization.o
+ .comment       0x00000011       0x12 obj/system_initialization.o
+ .comment       0x00000011       0x12 obj/power_initialization.o
+ .comment       0x00000011       0x12 obj/initialization.o
+
+.note.gnu.avr.deviceinfo
+                0x00000000       0x40
+ .note.gnu.avr.deviceinfo
+                0x00000000       0x40 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+
+.note.gnu.build-id
+ *(.note.gnu.build-id)
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info     0x00000000      0x792
+ *(.debug_info .gnu.linkonce.wi.*)
+ .debug_info    0x00000000      0x792 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+
+.debug_abbrev   0x00000000      0x729
+ *(.debug_abbrev)
+ .debug_abbrev  0x00000000      0x729 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+
+.debug_line     0x00000000       0x1a
+ *(.debug_line .debug_line.* .debug_line_end)
+ .debug_line    0x00000000       0x1a /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str      0x00000000      0x296
+ *(.debug_str)
+ .debug_str     0x00000000      0x296 /usr/lib/gcc/avr/5.4.0/../../../avr/lib/avr51/crtatmega1284p.o
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+OUTPUT(obj/RPI_Hat_IR_Board.elf elf32-avr)
+LOAD linker stubs
