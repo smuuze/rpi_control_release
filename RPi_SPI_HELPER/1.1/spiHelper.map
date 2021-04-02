@@ -1,0 +1,1839 @@
+Archive member included to satisfy reference by file (symbol)
+
+/usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_arm_addsubdf3.o)
+                              obj/rtc_driver_raspberrypi.o (__aeabi_ul2d)
+/usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_fixunsdfdi.o)
+                              obj/rtc_driver_raspberrypi.o (__aeabi_d2ulz)
+//usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o (__libc_csu_init)
+//usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat.oS)
+                              obj/file_interface.o (stat)
+
+Allocating common symbols
+Common symbol       size              file
+
+system_context      0x2e              obj/initialization.o
+
+Discarded input sections
+
+ .rodata.cst4   0x00000000        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .ARM.extab     0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .data          0x00000000        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .data          0x00000000        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ .data          0x00000000        0x0 obj/main_spi_helper.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/main_spi_helper.o
+ .bss           0x00000000        0x0 obj/board_RASPBERRYPI.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/board_RASPBERRYPI.o
+ .data          0x00000000        0x0 obj/local_module_status.o
+ .bss           0x00000000        0x0 obj/local_module_status.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/local_module_status.o
+ .data          0x00000000        0x0 obj/local_mutex.o
+ .bss           0x00000000        0x0 obj/local_mutex.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/local_mutex.o
+ .text          0x00000000       0x1c obj/local_progmem_load.o
+ .data          0x00000000        0x0 obj/local_progmem_load.o
+ .bss           0x00000000        0x0 obj/local_progmem_load.o
+ .comment       0x00000000       0x24 obj/local_progmem_load.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/local_progmem_load.o
+ .ARM.attributes
+                0x00000000       0x2f obj/local_progmem_load.o
+ .text          0x00000000      0x3f8 obj/local_data_storage_array.o
+ .data          0x00000000        0x0 obj/local_data_storage_array.o
+ .bss           0x00000000        0x0 obj/local_data_storage_array.o
+ .comment       0x00000000       0x24 obj/local_data_storage_array.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/local_data_storage_array.o
+ .ARM.attributes
+                0x00000000       0x2f obj/local_data_storage_array.o
+ .data          0x00000000        0x0 obj/local_msg_buffer.o
+ .bss           0x00000000        0x0 obj/local_msg_buffer.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/local_msg_buffer.o
+ .data          0x00000000        0x0 obj/signal_slot_interface.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/signal_slot_interface.o
+ .text          0x00000000       0x7c obj/math_module.o
+ .data          0x00000000        0x0 obj/math_module.o
+ .bss           0x00000000        0x0 obj/math_module.o
+ .comment       0x00000000       0x24 obj/math_module.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/math_module.o
+ .ARM.attributes
+                0x00000000       0x2f obj/math_module.o
+ .text          0x00000000       0xac obj/common_tools_number.o
+ .data          0x00000000        0x0 obj/common_tools_number.o
+ .bss           0x00000000        0x0 obj/common_tools_number.o
+ .comment       0x00000000       0x24 obj/common_tools_number.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/common_tools_number.o
+ .ARM.attributes
+                0x00000000       0x2f obj/common_tools_number.o
+ .data          0x00000000        0x0 obj/common_tools_string.o
+ .bss           0x00000000        0x0 obj/common_tools_string.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/common_tools_string.o
+ .text          0x00000000       0x40 obj/common_tools_datetime.o
+ .data          0x00000000        0x0 obj/common_tools_datetime.o
+ .bss           0x00000000        0x0 obj/common_tools_datetime.o
+ .comment       0x00000000       0x24 obj/common_tools_datetime.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/common_tools_datetime.o
+ .ARM.attributes
+                0x00000000       0x2f obj/common_tools_datetime.o
+ .text          0x00000000      0x16c obj/qeue_interface.o
+ .data          0x00000000        0x0 obj/qeue_interface.o
+ .bss           0x00000000        0x0 obj/qeue_interface.o
+ .comment       0x00000000       0x24 obj/qeue_interface.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/qeue_interface.o
+ .ARM.attributes
+                0x00000000       0x2f obj/qeue_interface.o
+ .text          0x00000000       0x10 obj/specific.o
+ .data          0x00000000        0x0 obj/specific.o
+ .bss           0x00000000        0x0 obj/specific.o
+ .comment       0x00000000       0x24 obj/specific.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/specific.o
+ .ARM.attributes
+                0x00000000       0x2f obj/specific.o
+ .bss           0x00000000        0x0 obj/system_interface.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/system_interface.o
+ .text          0x00000000      0x408 obj/tracer_console.o
+ .data          0x00000000        0x0 obj/tracer_console.o
+ .bss           0x00000000        0x2 obj/tracer_console.o
+ .rodata.str1.1
+                0x00000000      0x121 obj/tracer_console.o
+ .comment       0x00000000       0x24 obj/tracer_console.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/tracer_console.o
+ .ARM.attributes
+                0x00000000       0x2f obj/tracer_console.o
+ .data          0x00000000        0x0 obj/time_management.o
+ .bss           0x00000000        0x0 obj/time_management.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/time_management.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/mcu_task_controller.o
+ .data          0x00000000        0x0 obj/mcu_idle_task.o
+ .bss           0x00000000        0x0 obj/mcu_idle_task.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/mcu_idle_task.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/rpi_protocol_handler_host.o
+ .data          0x00000000        0x0 obj/rtc_driver_raspberrypi.o
+ .bss           0x00000000        0x0 obj/rtc_driver_raspberrypi.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/rtc_driver_raspberrypi.o
+ .data          0x00000000        0x0 obj/clock_driver_raspberrypi.o
+ .bss           0x00000000        0x0 obj/clock_driver_raspberrypi.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/clock_driver_raspberrypi.o
+ .data          0x00000000        0x0 obj/gpio_driver_raspberrypi.o
+ .bss           0x00000000        0x0 obj/gpio_driver_raspberrypi.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/gpio_driver_raspberrypi.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/spi0_driver_raspberrypi.o
+ .data          0x00000000        0x0 obj/ui_console.o
+ .bss           0x00000000        0x0 obj/ui_console.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/ui_console.o
+ .data          0x00000000        0x0 obj/ui_lcd_16x2.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/ui_lcd_16x2.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/cfg_file_parser.o
+ .data          0x00000000        0x0 obj/file_interface.o
+ .bss           0x00000000        0x0 obj/file_interface.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/file_interface.o
+ .data          0x00000000        0x0 obj/command_line_argument_table.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/command_line_argument_table.o
+ .data          0x00000000        0x0 obj/command_line_handler.o
+ .bss           0x00000000        0x0 obj/command_line_handler.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/command_line_handler.o
+ .data          0x00000000        0x0 obj/sensor_initialization.o
+ .bss           0x00000000        0x0 obj/sensor_initialization.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/sensor_initialization.o
+ .data          0x00000000        0x0 obj/button_initialization.o
+ .bss           0x00000000        0x0 obj/button_initialization.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/button_initialization.o
+ .data          0x00000000        0x0 obj/output_initialization.o
+ .bss           0x00000000        0x0 obj/output_initialization.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/output_initialization.o
+ .data          0x00000000        0x0 obj/protocol_initialization.o
+ .bss           0x00000000        0x0 obj/protocol_initialization.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/protocol_initialization.o
+ .data          0x00000000        0x0 obj/command_initialization.o
+ .bss           0x00000000        0x0 obj/command_initialization.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/command_initialization.o
+ .data          0x00000000        0x0 obj/task_initialization.o
+ .bss           0x00000000        0x0 obj/task_initialization.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/task_initialization.o
+ .data          0x00000000        0x0 obj/system_initialization.o
+ .bss           0x00000000        0x0 obj/system_initialization.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/system_initialization.o
+ .data          0x00000000        0x0 obj/power_initialization.o
+ .bss           0x00000000        0x0 obj/power_initialization.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/power_initialization.o
+ .data          0x00000000        0x0 obj/initialization.o
+ .bss           0x00000000        0x0 obj/initialization.o
+ .note.GNU-stack
+                0x00000000        0x0 obj/initialization.o
+ COMMON         0x00000000       0x2e obj/initialization.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_arm_addsubdf3.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_arm_addsubdf3.o)
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_arm_addsubdf3.o)
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_fixunsdfdi.o)
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_fixunsdfdi.o)
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_fixunsdfdi.o)
+ .data          0x00000000        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .bss           0x00000000        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x00000000        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .data          0x00000000        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat.oS)
+ .bss           0x00000000        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat.oS)
+ .note.GNU-stack
+                0x00000000        0x0 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat.oS)
+ .text          0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .text          0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+ .data          0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+ .bss           0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+ .note.GNU-stack
+                0x00000000        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/librt.so
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../libwiringPi.so
+LOAD obj/main_spi_helper.o
+LOAD obj/board_RASPBERRYPI.o
+LOAD obj/local_module_status.o
+LOAD obj/local_mutex.o
+LOAD obj/local_progmem_load.o
+LOAD obj/local_data_storage_array.o
+LOAD obj/local_msg_buffer.o
+LOAD obj/signal_slot_interface.o
+LOAD obj/math_module.o
+LOAD obj/common_tools_number.o
+LOAD obj/common_tools_string.o
+LOAD obj/common_tools_datetime.o
+LOAD obj/qeue_interface.o
+LOAD obj/specific.o
+LOAD obj/system_interface.o
+LOAD obj/tracer_console.o
+LOAD obj/time_management.o
+LOAD obj/mcu_task_controller.o
+LOAD obj/mcu_idle_task.o
+LOAD obj/rpi_protocol_handler_host.o
+LOAD obj/rtc_driver_raspberrypi.o
+LOAD obj/clock_driver_raspberrypi.o
+LOAD obj/gpio_driver_raspberrypi.o
+LOAD obj/spi0_driver_raspberrypi.o
+LOAD obj/ui_console.o
+LOAD obj/ui_lcd_16x2.o
+LOAD obj/cfg_file_parser.o
+LOAD obj/file_interface.o
+LOAD obj/command_line_argument_table.o
+LOAD obj/command_line_handler.o
+LOAD obj/sensor_initialization.o
+LOAD obj/button_initialization.o
+LOAD obj/output_initialization.o
+LOAD obj/protocol_initialization.o
+LOAD obj/command_initialization.o
+LOAD obj/task_initialization.o
+LOAD obj/system_initialization.o
+LOAD obj/power_initialization.o
+LOAD obj/initialization.o
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc_s.so.1
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/libc.so
+START GROUP
+LOAD //lib/arm-linux-gnueabihf/libc.so.6
+LOAD //usr/lib/arm-linux-gnueabihf/libc_nonshared.a
+LOAD //lib/arm-linux-gnueabihf/ld-linux-armhf.so.3
+END GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc_s.so
+START GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc_s.so.1
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a
+END GROUP
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+LOAD /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+                [!provide]                PROVIDE (__executable_start = SEGMENT_START ("text-segment", 0x10000))
+                0x00010154                . = (SEGMENT_START ("text-segment", 0x10000) + SIZEOF_HEADERS)
+
+.interp         0x00010154       0x19
+ *(.interp)
+ .interp        0x00010154       0x19 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.note.ABI-tag   0x00010170       0x20
+ .note.ABI-tag  0x00010170       0x20 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.note.gnu.build-id
+                0x00010190       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x00010190       0x24 linker stubs
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x000101b4      0x15c
+ *(.gnu.hash)
+ .gnu.hash      0x000101b4      0x15c /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.dynsym         0x00010310      0x2a0
+ *(.dynsym)
+ .dynsym        0x00010310      0x2a0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.dynstr         0x000105b0      0x1a2
+ *(.dynstr)
+ .dynstr        0x000105b0      0x1a2 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.gnu.version    0x00010752       0x54
+ *(.gnu.version)
+ .gnu.version   0x00010752       0x54 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.gnu.version_d  0x000107a8        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x000107a8        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.gnu.version_r  0x000107a8       0x40
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x000107a8       0x40 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.rel.dyn        0x000107e8        0x8
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ .rel.data.rel.ro
+                0x000107e8        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x000107e8        0x8 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x000107f0        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                [!provide]                PROVIDE (__rel_iplt_start = .)
+ *(.rel.iplt)
+ .rel.iplt      0x000107f0        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                [!provide]                PROVIDE (__rel_iplt_end = .)
+
+.rela.dyn       0x000107f0        0x0
+ *(.rela.init)
+ *(.rela.text .rela.text.* .rela.gnu.linkonce.t.*)
+ *(.rela.fini)
+ *(.rela.rodata .rela.rodata.* .rela.gnu.linkonce.r.*)
+ *(.rela.data .rela.data.* .rela.gnu.linkonce.d.*)
+ *(.rela.tdata .rela.tdata.* .rela.gnu.linkonce.td.*)
+ *(.rela.tbss .rela.tbss.* .rela.gnu.linkonce.tb.*)
+ *(.rela.ctors)
+ *(.rela.dtors)
+ *(.rela.got)
+ *(.rela.bss .rela.bss.* .rela.gnu.linkonce.b.*)
+                [!provide]                PROVIDE (__rela_iplt_start = .)
+ *(.rela.iplt)
+                [!provide]                PROVIDE (__rela_iplt_end = .)
+
+.rel.plt        0x000107f0      0x100
+ *(.rel.plt)
+ .rel.plt       0x000107f0      0x100 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.rela.plt
+ *(.rela.plt)
+
+.init           0x000108f0        0xc
+ *(SORT_NONE(.init))
+ .init          0x000108f0        0x8 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+                0x000108f0                _init
+ .init          0x000108f8        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+
+.plt            0x000108fc      0x194
+ *(.plt)
+ .plt           0x000108fc      0x194 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x00010910                printf@@GLIBC_2.4
+                0x0001091c                fopen@@GLIBC_2.4
+                0x00010928                digitalRead
+                0x00010934                memmove@@GLIBC_2.4
+                0x00010940                memcpy@@GLIBC_2.4
+                0x0001094c                digitalWrite
+                0x00010958                memcmp@@GLIBC_2.4
+                0x00010964                __xstat@@GLIBC_2.4
+                0x00010970                ioctl@@GLIBC_2.4
+                0x0001097c                usleep@@GLIBC_2.4
+                0x00010988                puts@@GLIBC_2.4
+                0x00010994                __libc_start_main@@GLIBC_2.4
+                0x000109ac                open@@GLIBC_2.4
+                0x000109b8                rename@@GLIBC_2.4
+                0x000109c4                __ctype_b_loc@@GLIBC_2.4
+                0x000109d0                feof@@GLIBC_2.4
+                0x000109dc                strlen@@GLIBC_2.4
+                0x000109e8                fprintf@@GLIBC_2.4
+                0x000109f4                snprintf@@GLIBC_2.4
+                0x00010a00                memset@@GLIBC_2.4
+                0x00010a0c                putchar@@GLIBC_2.4
+                0x00010a18                pinMode
+                0x00010a24                wiringPiSetup
+                0x00010a30                pullUpDnControl
+                0x00010a3c                fclose@@GLIBC_2.4
+                0x00010a48                remove@@GLIBC_2.4
+                0x00010a54                atoi@@GLIBC_2.4
+                0x00010a60                clock_gettime@@GLIBC_2.4
+                0x00010a6c                abort@@GLIBC_2.4
+                0x00010a78                getc@@GLIBC_2.4
+                0x00010a84                close@@GLIBC_2.4
+
+.iplt           0x00010a90        0x0
+ *(.iplt)
+ .iplt          0x00010a90        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.text           0x00010a90     0x5a64
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x00010a90       0xa0 obj/main_spi_helper.o
+                0x00010a90                main
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x00010b30       0x3c /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x00010b30                _start
+ .text          0x00010b6c       0x24 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .text          0x00010b90       0x90 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ .text          0x00010c20      0x230 obj/main_spi_helper.o
+                0x00010dc0                MAIN_RPI_HOST_RESPONSE_RECEIVED_SLOT_connect
+                0x00010dd8                MAIN_RPI_HOST_COMMAND_RECEIVED_SLOT_connect
+                0x00010df0                MAIN_CLI_HELP_REQUESTED_SLOT_connect
+                0x00010e08                MAIN_CLI_INVALID_PARAMETER_SLOT_connect
+                0x00010e20                MAIN_CLI_LCD_ACTIVATED_SLOT_connect
+                0x00010e38                MAIN_CFG_OBJECT_RECEIVED_SLOT_connect
+ .text          0x00010e50     0x2128 obj/board_RASPBERRYPI.o
+                0x00010e50                I2C_SDA_drive_high
+                0x00010e78                I2C_SDA_drive_low
+                0x00010ea0                I2C_SDA_no_drive
+                0x00010ec8                I2C_SDA_toggle_level
+                0x00010ed4                I2C_SDA_pull_up
+                0x00010efc                I2C_SDA_pull_down
+                0x00010f24                I2C_SDA_no_pull
+                0x00010f28                I2C_SDA_is_high_level
+                0x00010f48                I2C_SDA_is_low_level
+                0x00010f64                I2C_SDA_print_state
+                0x00010f70                I2C_SCL_drive_high
+                0x00010f98                I2C_SCL_drive_low
+                0x00010fc0                I2C_SCL_no_drive
+                0x00010fe8                I2C_SCL_toggle_level
+                0x00010ff4                I2C_SCL_pull_up
+                0x0001101c                I2C_SCL_pull_down
+                0x00011044                I2C_SCL_no_pull
+                0x00011048                I2C_SCL_is_high_level
+                0x00011068                I2C_SCL_is_low_level
+                0x00011084                I2C_SCL_print_state
+                0x00011090                GPIO04_drive_high
+                0x000110b8                GPIO04_drive_low
+                0x000110e0                GPIO04_no_drive
+                0x00011108                GPIO04_toggle_level
+                0x00011114                GPIO04_pull_up
+                0x0001113c                GPIO04_pull_down
+                0x00011164                GPIO04_no_pull
+                0x00011168                GPIO04_is_high_level
+                0x00011188                GPIO04_is_low_level
+                0x000111a4                GPIO04_print_state
+                0x000111b0                UART_TXD_drive_high
+                0x000111d8                UART_TXD_drive_low
+                0x00011200                UART_TXD_no_drive
+                0x00011228                UART_TXD_toggle_level
+                0x00011234                UART_TXD_pull_up
+                0x0001125c                UART_TXD_pull_down
+                0x00011284                UART_TXD_no_pull
+                0x00011288                UART_TXD_is_high_level
+                0x000112a8                UART_TXD_is_low_level
+                0x000112c4                UART_TXD_print_state
+                0x000112d0                UART_RXD_drive_high
+                0x000112f8                UART_RXD_drive_low
+                0x00011320                UART_RXD_no_drive
+                0x00011348                UART_RXD_toggle_level
+                0x00011354                UART_RXD_pull_up
+                0x0001137c                UART_RXD_pull_down
+                0x000113a4                UART_RXD_no_pull
+                0x000113a8                UART_RXD_is_high_level
+                0x000113c8                UART_RXD_is_low_level
+                0x000113e4                UART_RXD_print_state
+                0x000113f0                GPIO17_drive_high
+                0x00011418                GPIO17_drive_low
+                0x00011440                GPIO17_no_drive
+                0x00011468                GPIO17_toggle_level
+                0x00011474                GPIO17_pull_up
+                0x0001149c                GPIO17_pull_down
+                0x000114c4                GPIO17_no_pull
+                0x000114c8                GPIO17_is_high_level
+                0x000114e8                GPIO17_is_low_level
+                0x00011504                GPIO17_print_state
+                0x00011510                GPIO18_drive_high
+                0x00011538                GPIO18_drive_low
+                0x00011560                GPIO18_no_drive
+                0x00011588                GPIO18_toggle_level
+                0x00011594                GPIO18_pull_up
+                0x000115bc                GPIO18_pull_down
+                0x000115e4                GPIO18_no_pull
+                0x000115e8                GPIO18_is_high_level
+                0x00011608                GPIO18_is_low_level
+                0x00011624                GPIO18_print_state
+                0x00011630                GPIO27_drive_high
+                0x00011658                GPIO27_drive_low
+                0x00011680                GPIO27_no_drive
+                0x000116a8                GPIO27_toggle_level
+                0x000116b4                GPIO27_pull_up
+                0x000116dc                GPIO27_pull_down
+                0x00011704                GPIO27_no_pull
+                0x00011708                GPIO27_is_high_level
+                0x00011728                GPIO27_is_low_level
+                0x00011744                GPIO27_print_state
+                0x00011750                GPIO22_drive_high
+                0x00011778                GPIO22_drive_low
+                0x000117a0                GPIO22_no_drive
+                0x000117c8                GPIO22_toggle_level
+                0x000117d4                GPIO22_pull_up
+                0x000117fc                GPIO22_pull_down
+                0x00011824                GPIO22_no_pull
+                0x00011828                GPIO22_is_high_level
+                0x00011848                GPIO22_is_low_level
+                0x00011864                GPIO22_print_state
+                0x00011870                GPIO23_drive_high
+                0x00011898                GPIO23_drive_low
+                0x000118c0                GPIO23_no_drive
+                0x000118e8                GPIO23_toggle_level
+                0x000118f4                GPIO23_pull_up
+                0x0001191c                GPIO23_pull_down
+                0x00011944                GPIO23_no_pull
+                0x00011948                GPIO23_is_high_level
+                0x00011968                GPIO23_is_low_level
+                0x00011984                GPIO23_print_state
+                0x00011990                GPIO24_drive_high
+                0x000119b8                GPIO24_drive_low
+                0x000119e0                GPIO24_no_drive
+                0x00011a08                GPIO24_toggle_level
+                0x00011a14                GPIO24_pull_up
+                0x00011a3c                GPIO24_pull_down
+                0x00011a64                GPIO24_no_pull
+                0x00011a68                GPIO24_is_high_level
+                0x00011a88                GPIO24_is_low_level
+                0x00011aa4                GPIO24_print_state
+                0x00011ab0                SPI_MOSI_drive_high
+                0x00011ad8                SPI_MOSI_drive_low
+                0x00011b00                SPI_MOSI_no_drive
+                0x00011b28                SPI_MOSI_toggle_level
+                0x00011b34                SPI_MOSI_pull_up
+                0x00011b5c                SPI_MOSI_pull_down
+                0x00011b84                SPI_MOSI_no_pull
+                0x00011b88                SPI_MOSI_is_high_level
+                0x00011ba8                SPI_MOSI_is_low_level
+                0x00011bc4                SPI_MOSI_print_state
+                0x00011bd0                SPI_MISO_drive_high
+                0x00011bf8                SPI_MISO_drive_low
+                0x00011c20                SPI_MISO_no_drive
+                0x00011c48                SPI_MISO_toggle_level
+                0x00011c54                SPI_MISO_pull_up
+                0x00011c7c                SPI_MISO_pull_down
+                0x00011ca4                SPI_MISO_no_pull
+                0x00011ca8                SPI_MISO_is_high_level
+                0x00011cc8                SPI_MISO_is_low_level
+                0x00011ce4                SPI_MISO_print_state
+                0x00011cf0                GPIO25_drive_high
+                0x00011d18                GPIO25_drive_low
+                0x00011d40                GPIO25_no_drive
+                0x00011d68                GPIO25_toggle_level
+                0x00011d74                GPIO25_pull_up
+                0x00011d9c                GPIO25_pull_down
+                0x00011dc4                GPIO25_no_pull
+                0x00011dc8                GPIO25_is_high_level
+                0x00011de8                GPIO25_is_low_level
+                0x00011e04                GPIO25_print_state
+                0x00011e10                SPI_SCLK_drive_high
+                0x00011e38                SPI_SCLK_drive_low
+                0x00011e60                SPI_SCLK_no_drive
+                0x00011e88                SPI_SCLK_toggle_level
+                0x00011e94                SPI_SCLK_pull_up
+                0x00011ebc                SPI_SCLK_pull_down
+                0x00011ee4                SPI_SCLK_no_pull
+                0x00011ee8                SPI_SCLK_is_high_level
+                0x00011f08                SPI_SCLK_is_low_level
+                0x00011f24                SPI_SCLK_print_state
+                0x00011f30                SPI_CE0_drive_high
+                0x00011f58                SPI_CE0_drive_low
+                0x00011f80                SPI_CE0_no_drive
+                0x00011fa8                SPI_CE0_toggle_level
+                0x00011fb4                SPI_CE0_pull_up
+                0x00011fdc                SPI_CE0_pull_down
+                0x00012004                SPI_CE0_no_pull
+                0x00012008                SPI_CE0_is_high_level
+                0x00012028                SPI_CE0_is_low_level
+                0x00012044                SPI_CE0_print_state
+                0x00012050                SPI_CE1_drive_high
+                0x00012078                SPI_CE1_drive_low
+                0x000120a0                SPI_CE1_no_drive
+                0x000120c8                SPI_CE1_toggle_level
+                0x000120d4                SPI_CE1_pull_up
+                0x000120fc                SPI_CE1_pull_down
+                0x00012124                SPI_CE1_no_pull
+                0x00012128                SPI_CE1_is_high_level
+                0x00012148                SPI_CE1_is_low_level
+                0x00012164                SPI_CE1_print_state
+                0x00012170                GPIO05_drive_high
+                0x00012198                GPIO05_drive_low
+                0x000121c0                GPIO05_no_drive
+                0x000121e8                GPIO05_toggle_level
+                0x000121f4                GPIO05_pull_up
+                0x0001221c                GPIO05_pull_down
+                0x00012244                GPIO05_no_pull
+                0x00012248                GPIO05_is_high_level
+                0x00012268                GPIO05_is_low_level
+                0x00012284                GPIO05_print_state
+                0x00012290                GPIO06_drive_high
+                0x000122b8                GPIO06_drive_low
+                0x000122e0                GPIO06_no_drive
+                0x00012308                GPIO06_toggle_level
+                0x00012314                GPIO06_pull_up
+                0x0001233c                GPIO06_pull_down
+                0x00012364                GPIO06_no_pull
+                0x00012368                GPIO06_is_high_level
+                0x00012388                GPIO06_is_low_level
+                0x000123a4                GPIO06_print_state
+                0x000123b0                GPIO12_drive_high
+                0x000123d8                GPIO12_drive_low
+                0x00012400                GPIO12_no_drive
+                0x00012428                GPIO12_toggle_level
+                0x00012434                GPIO12_pull_up
+                0x0001245c                GPIO12_pull_down
+                0x00012484                GPIO12_no_pull
+                0x00012488                GPIO12_is_high_level
+                0x000124a8                GPIO12_is_low_level
+                0x000124c4                GPIO12_print_state
+                0x000124d0                GPIO13_drive_high
+                0x000124f8                GPIO13_drive_low
+                0x00012520                GPIO13_no_drive
+                0x00012548                GPIO13_toggle_level
+                0x00012554                GPIO13_pull_up
+                0x0001257c                GPIO13_pull_down
+                0x000125a4                GPIO13_no_pull
+                0x000125a8                GPIO13_is_high_level
+                0x000125c8                GPIO13_is_low_level
+                0x000125e4                GPIO13_print_state
+                0x000125f0                GPIO19_drive_high
+                0x00012618                GPIO19_drive_low
+                0x00012640                GPIO19_no_drive
+                0x00012668                GPIO19_toggle_level
+                0x00012674                GPIO19_pull_up
+                0x0001269c                GPIO19_pull_down
+                0x000126c4                GPIO19_no_pull
+                0x000126c8                GPIO19_is_high_level
+                0x000126e8                GPIO19_is_low_level
+                0x00012704                GPIO19_print_state
+                0x00012710                GPIO16_drive_high
+                0x00012738                GPIO16_drive_low
+                0x00012760                GPIO16_no_drive
+                0x00012788                GPIO16_toggle_level
+                0x00012794                GPIO16_pull_up
+                0x000127bc                GPIO16_pull_down
+                0x000127e4                GPIO16_no_pull
+                0x000127e8                GPIO16_is_high_level
+                0x00012808                GPIO16_is_low_level
+                0x00012824                GPIO16_print_state
+                0x00012830                GPIO26_drive_high
+                0x00012858                GPIO26_drive_low
+                0x00012880                GPIO26_no_drive
+                0x000128a8                GPIO26_toggle_level
+                0x000128b4                GPIO26_pull_up
+                0x000128dc                GPIO26_pull_down
+                0x00012904                GPIO26_no_pull
+                0x00012908                GPIO26_is_high_level
+                0x00012928                GPIO26_is_low_level
+                0x00012944                GPIO26_print_state
+                0x00012950                GPIO20_drive_high
+                0x00012978                GPIO20_drive_low
+                0x000129a0                GPIO20_no_drive
+                0x000129c8                GPIO20_toggle_level
+                0x000129d4                GPIO20_pull_up
+                0x000129fc                GPIO20_pull_down
+                0x00012a24                GPIO20_no_pull
+                0x00012a28                GPIO20_is_high_level
+                0x00012a48                GPIO20_is_low_level
+                0x00012a64                GPIO20_print_state
+                0x00012a70                GPIO21_drive_high
+                0x00012a98                GPIO21_drive_low
+                0x00012ac0                GPIO21_no_drive
+                0x00012ae8                GPIO21_toggle_level
+                0x00012af4                GPIO21_pull_up
+                0x00012b1c                GPIO21_pull_down
+                0x00012b44                GPIO21_no_pull
+                0x00012b48                GPIO21_is_high_level
+                0x00012b68                GPIO21_is_low_level
+                0x00012b84                GPIO21_print_state
+                0x00012b90                GPIO_07_drive_high
+                0x00012b94                GPIO_07_drive_low
+                0x00012b98                GPIO_07_no_drive
+                0x00012b9c                GPIO_07_toggle_level
+                0x00012ba0                GPIO_07_pull_up
+                0x00012ba4                GPIO_07_pull_down
+                0x00012ba8                GPIO_07_no_pull
+                0x00012bac                GPIO_07_is_high_level
+                0x00012bb0                GPIO_07_is_low_level
+                0x00012bb4                GPIO_07_print_state
+                0x00012bb8                GPIO_00_drive_high
+                0x00012bbc                GPIO_00_drive_low
+                0x00012bc0                GPIO_00_no_drive
+                0x00012bc4                GPIO_00_toggle_level
+                0x00012bc8                GPIO_00_pull_up
+                0x00012bcc                GPIO_00_pull_down
+                0x00012bd0                GPIO_00_no_pull
+                0x00012bd4                GPIO_00_is_high_level
+                0x00012bd8                GPIO_00_is_low_level
+                0x00012bdc                GPIO_00_print_state
+                0x00012be0                GPIO_01_drive_high
+                0x00012be4                GPIO_01_drive_low
+                0x00012be8                GPIO_01_no_drive
+                0x00012bec                GPIO_01_toggle_level
+                0x00012bf0                GPIO_01_pull_up
+                0x00012bf4                GPIO_01_pull_down
+                0x00012bf8                GPIO_01_no_pull
+                0x00012bfc                GPIO_01_is_high_level
+                0x00012c00                GPIO_01_is_low_level
+                0x00012c04                GPIO_01_print_state
+                0x00012c08                GPIO_02_drive_high
+                0x00012c0c                GPIO_02_drive_low
+                0x00012c10                GPIO_02_no_drive
+                0x00012c14                GPIO_02_toggle_level
+                0x00012c18                GPIO_02_pull_up
+                0x00012c1c                GPIO_02_pull_down
+                0x00012c20                GPIO_02_no_pull
+                0x00012c24                GPIO_02_is_high_level
+                0x00012c28                GPIO_02_is_low_level
+                0x00012c2c                GPIO_02_print_state
+                0x00012c30                GPIO_03_drive_high
+                0x00012c34                GPIO_03_drive_low
+                0x00012c38                GPIO_03_no_drive
+                0x00012c3c                GPIO_03_toggle_level
+                0x00012c40                GPIO_03_pull_up
+                0x00012c44                GPIO_03_pull_down
+                0x00012c48                GPIO_03_no_pull
+                0x00012c4c                GPIO_03_is_high_level
+                0x00012c50                GPIO_03_is_low_level
+                0x00012c54                GPIO_03_print_state
+                0x00012c58                GPIO_04_drive_high
+                0x00012c5c                GPIO_04_drive_low
+                0x00012c60                GPIO_04_no_drive
+                0x00012c64                GPIO_04_toggle_level
+                0x00012c68                GPIO_04_pull_up
+                0x00012c6c                GPIO_04_pull_down
+                0x00012c70                GPIO_04_no_pull
+                0x00012c74                GPIO_04_is_high_level
+                0x00012c78                GPIO_04_is_low_level
+                0x00012c7c                GPIO_04_print_state
+                0x00012c80                GPIO_05_drive_high
+                0x00012c84                GPIO_05_drive_low
+                0x00012c88                GPIO_05_no_drive
+                0x00012c8c                GPIO_05_toggle_level
+                0x00012c90                GPIO_05_pull_up
+                0x00012c94                GPIO_05_pull_down
+                0x00012c98                GPIO_05_no_pull
+                0x00012c9c                GPIO_05_is_high_level
+                0x00012ca0                GPIO_05_is_low_level
+                0x00012ca4                GPIO_05_print_state
+                0x00012ca8                GPIO_06_drive_high
+                0x00012cac                GPIO_06_drive_low
+                0x00012cb0                GPIO_06_no_drive
+                0x00012cb4                GPIO_06_toggle_level
+                0x00012cb8                GPIO_06_pull_up
+                0x00012cbc                GPIO_06_pull_down
+                0x00012cc0                GPIO_06_no_pull
+                0x00012cc4                GPIO_06_is_high_level
+                0x00012cc8                GPIO_06_is_low_level
+                0x00012ccc                GPIO_06_print_state
+                0x00012cd0                GPIO_21_drive_high
+                0x00012cd4                GPIO_21_drive_low
+                0x00012cd8                GPIO_21_no_drive
+                0x00012cdc                GPIO_21_toggle_level
+                0x00012ce0                GPIO_21_pull_up
+                0x00012ce4                GPIO_21_pull_down
+                0x00012ce8                GPIO_21_no_pull
+                0x00012cec                GPIO_21_is_high_level
+                0x00012cf0                GPIO_21_is_low_level
+                0x00012cf4                GPIO_21_print_state
+                0x00012cf8                GPIO_22_drive_high
+                0x00012cfc                GPIO_22_drive_low
+                0x00012d00                GPIO_22_no_drive
+                0x00012d04                GPIO_22_toggle_level
+                0x00012d08                GPIO_22_pull_up
+                0x00012d0c                GPIO_22_pull_down
+                0x00012d10                GPIO_22_no_pull
+                0x00012d14                GPIO_22_is_high_level
+                0x00012d18                GPIO_22_is_low_level
+                0x00012d1c                GPIO_22_print_state
+                0x00012d20                GPIO_26_drive_high
+                0x00012d24                GPIO_26_drive_low
+                0x00012d28                GPIO_26_no_drive
+                0x00012d2c                GPIO_26_toggle_level
+                0x00012d30                GPIO_26_pull_up
+                0x00012d34                GPIO_26_pull_down
+                0x00012d38                GPIO_26_no_pull
+                0x00012d3c                GPIO_26_is_high_level
+                0x00012d40                GPIO_26_is_low_level
+                0x00012d44                GPIO_26_print_state
+                0x00012d48                GPIO_23_drive_high
+                0x00012d4c                GPIO_23_drive_low
+                0x00012d50                GPIO_23_no_drive
+                0x00012d54                GPIO_23_toggle_level
+                0x00012d58                GPIO_23_pull_up
+                0x00012d5c                GPIO_23_pull_down
+                0x00012d60                GPIO_23_no_pull
+                0x00012d64                GPIO_23_is_high_level
+                0x00012d68                GPIO_23_is_low_level
+                0x00012d6c                GPIO_23_print_state
+                0x00012d70                GPIO_24_drive_high
+                0x00012d74                GPIO_24_drive_low
+                0x00012d78                GPIO_24_no_drive
+                0x00012d7c                GPIO_24_toggle_level
+                0x00012d80                GPIO_24_pull_up
+                0x00012d84                GPIO_24_pull_down
+                0x00012d88                GPIO_24_no_pull
+                0x00012d8c                GPIO_24_is_high_level
+                0x00012d90                GPIO_24_is_low_level
+                0x00012d94                GPIO_24_print_state
+                0x00012d98                GPIO_27_drive_high
+                0x00012d9c                GPIO_27_drive_low
+                0x00012da0                GPIO_27_no_drive
+                0x00012da4                GPIO_27_toggle_level
+                0x00012da8                GPIO_27_pull_up
+                0x00012dac                GPIO_27_pull_down
+                0x00012db0                GPIO_27_no_pull
+                0x00012db4                GPIO_27_is_high_level
+                0x00012db8                GPIO_27_is_low_level
+                0x00012dbc                GPIO_27_print_state
+                0x00012dc0                GPIO_25_drive_high
+                0x00012dc4                GPIO_25_drive_low
+                0x00012dc8                GPIO_25_no_drive
+                0x00012dcc                GPIO_25_toggle_level
+                0x00012dd0                GPIO_25_pull_up
+                0x00012dd4                GPIO_25_pull_down
+                0x00012dd8                GPIO_25_no_pull
+                0x00012ddc                GPIO_25_is_high_level
+                0x00012de0                GPIO_25_is_low_level
+                0x00012de4                GPIO_25_print_state
+                0x00012de8                GPIO_28_drive_high
+                0x00012dec                GPIO_28_drive_low
+                0x00012df0                GPIO_28_no_drive
+                0x00012df4                GPIO_28_toggle_level
+                0x00012df8                GPIO_28_pull_up
+                0x00012dfc                GPIO_28_pull_down
+                0x00012e00                GPIO_28_no_pull
+                0x00012e04                GPIO_28_is_high_level
+                0x00012e08                GPIO_28_is_low_level
+                0x00012e0c                GPIO_28_print_state
+                0x00012e10                GPIO_29_drive_high
+                0x00012e14                GPIO_29_drive_low
+                0x00012e18                GPIO_29_no_drive
+                0x00012e1c                GPIO_29_toggle_level
+                0x00012e20                GPIO_29_pull_up
+                0x00012e24                GPIO_29_pull_down
+                0x00012e28                GPIO_29_no_pull
+                0x00012e2c                GPIO_29_is_high_level
+                0x00012e30                GPIO_29_is_low_level
+                0x00012e34                GPIO_29_print_state
+                0x00012e38                REQUEST_CLIENT_drive_high
+                0x00012e3c                REQUEST_CLIENT_drive_low
+                0x00012e40                REQUEST_CLIENT_no_drive
+                0x00012e44                REQUEST_CLIENT_toggle_level
+                0x00012e48                REQUEST_CLIENT_pull_up
+                0x00012e4c                REQUEST_CLIENT_pull_down
+                0x00012e50                REQUEST_CLIENT_no_pull
+                0x00012e54                REQUEST_CLIENT_is_high_level
+                0x00012e58                REQUEST_CLIENT_is_low_level
+                0x00012e5c                REQUEST_CLIENT_print_state
+                0x00012e60                SPI0_CS_drive_high
+                0x00012e64                SPI0_CS_drive_low
+                0x00012e68                SPI0_CS_no_drive
+                0x00012e6c                SPI0_CS_toggle_level
+                0x00012e70                SPI0_CS_pull_up
+                0x00012e74                SPI0_CS_pull_down
+                0x00012e78                SPI0_CS_no_pull
+                0x00012e7c                SPI0_CS_is_high_level
+                0x00012e80                SPI0_CS_is_low_level
+                0x00012e84                SPI0_CS_print_state
+                0x00012e88                LCD_RS_drive_high
+                0x00012e8c                LCD_RS_drive_low
+                0x00012e90                LCD_RS_no_drive
+                0x00012e94                LCD_RS_toggle_level
+                0x00012e98                LCD_RS_pull_up
+                0x00012e9c                LCD_RS_pull_down
+                0x00012ea0                LCD_RS_no_pull
+                0x00012ea4                LCD_RS_is_high_level
+                0x00012ea8                LCD_RS_is_low_level
+                0x00012eac                LCD_RS_print_state
+                0x00012eb0                LCD_EN_drive_high
+                0x00012eb4                LCD_EN_drive_low
+                0x00012eb8                LCD_EN_no_drive
+                0x00012ebc                LCD_EN_toggle_level
+                0x00012ec0                LCD_EN_pull_up
+                0x00012ec4                LCD_EN_pull_down
+                0x00012ec8                LCD_EN_no_pull
+                0x00012ecc                LCD_EN_is_high_level
+                0x00012ed0                LCD_EN_is_low_level
+                0x00012ed4                LCD_EN_print_state
+                0x00012ed8                LCD_D4_drive_high
+                0x00012edc                LCD_D4_drive_low
+                0x00012ee0                LCD_D4_no_drive
+                0x00012ee4                LCD_D4_toggle_level
+                0x00012ee8                LCD_D4_pull_up
+                0x00012eec                LCD_D4_pull_down
+                0x00012ef0                LCD_D4_no_pull
+                0x00012ef4                LCD_D4_is_high_level
+                0x00012ef8                LCD_D4_is_low_level
+                0x00012efc                LCD_D4_print_state
+                0x00012f00                LCD_D5_drive_high
+                0x00012f04                LCD_D5_drive_low
+                0x00012f08                LCD_D5_no_drive
+                0x00012f0c                LCD_D5_toggle_level
+                0x00012f10                LCD_D5_pull_up
+                0x00012f14                LCD_D5_pull_down
+                0x00012f18                LCD_D5_no_pull
+                0x00012f1c                LCD_D5_is_high_level
+                0x00012f20                LCD_D5_is_low_level
+                0x00012f24                LCD_D5_print_state
+                0x00012f28                LCD_D6_drive_high
+                0x00012f2c                LCD_D6_drive_low
+                0x00012f30                LCD_D6_no_drive
+                0x00012f34                LCD_D6_toggle_level
+                0x00012f38                LCD_D6_pull_up
+                0x00012f3c                LCD_D6_pull_down
+                0x00012f40                LCD_D6_no_pull
+                0x00012f44                LCD_D6_is_high_level
+                0x00012f48                LCD_D6_is_low_level
+                0x00012f4c                LCD_D6_print_state
+                0x00012f50                LCD_D7_drive_high
+                0x00012f54                LCD_D7_drive_low
+                0x00012f58                LCD_D7_no_drive
+                0x00012f5c                LCD_D7_toggle_level
+                0x00012f60                LCD_D7_pull_up
+                0x00012f64                LCD_D7_pull_down
+                0x00012f68                LCD_D7_no_pull
+                0x00012f6c                LCD_D7_is_high_level
+                0x00012f70                LCD_D7_is_low_level
+                0x00012f74                LCD_D7_print_state
+ .text          0x00012f78       0xc0 obj/local_module_status.o
+                0x00012f78                module_status_set_u8
+                0x00012f88                module_status_isset_u8
+                0x00012f9c                module_status_unset_u8
+                0x00012fac                module_status_clear_all_u8
+                0x00012fb8                module_status_set_u16
+                0x00012fc8                module_status_isset_u16
+                0x00012fdc                module_status_unset_u16
+                0x00012fec                module_status_clear_all_u16
+                0x00012ff8                module_status_set_u32
+                0x00013008                module_status_isset_u32
+                0x0001301c                module_status_unset_u32
+                0x0001302c                module_status_clear_all_u32
+ .text          0x00013038       0x78 obj/local_mutex.o
+                0x00013038                mutex_request
+                0x00013068                mutex_release
+                0x000130a0                mutex_is_requested
+ .text          0x000130b0      0x284 obj/local_msg_buffer.o
+                0x000130b0                local_msg_buffer_init
+                0x000130c8                local_msg_buffer_start_write
+                0x000130e8                local_msg_buffer_add_byte
+                0x00013144                local_msg_buffer_add_word
+                0x00013160                local_msg_buffer_add_long
+                0x00013194                local_msg_buffer_add_N_bytes
+                0x000131bc                local_msg_buffer_stop_write
+                0x000131cc                local_msg_buffer_start_read
+                0x000131e8                local_msg_buffer_bytes_available
+                0x000131f0                local_msg_buffer_bytes_free
+                0x00013204                local_msg_buffer_get_byte
+                0x00013268                local_msg_buffer_get_word
+                0x0001328c                local_msg_buffer_get_long
+                0x000132cc                local_msg_buffer_get_N_bytes
+                0x0001330c                local_msg_buffer_stop_read
+                0x0001331c                local_msg_buffer_clear_all
+                0x00013330                local_msg_buffer_debug_print
+ .text          0x00013334       0xbc obj/signal_slot_interface.o
+                0x00013334                signal_slot_init
+                0x00013340                signal_slot_send
+                0x000133c0                signal_slot_connect
+ .text          0x000133f0      0x628 obj/common_tools_string.o
+                0x000133f0                common_tools_hex_dump
+                0x00013504                common_tools_string_get_char_count
+                0x0001354c                common_tools_string_clear
+                0x00013558                common_tools_string_trim
+                0x00013614                common_tools_string_split
+                0x000136f4                common_tools_string_append
+                0x00013754                common_tools_string_ends_with
+                0x00013788                common_tools_string_length
+                0x00013798                common_tools_string_remove_last_character
+                0x000137bc                common_tools_string_compare
+                0x00013804                common_tools_string_copy_string
+                0x00013858                common_tools_string_from_u8
+                0x00013868                common_tools_string_from_i32
+                0x00013878                common_tools_hex_string_to_byte_array
+                0x00013950                common_tools_byte_array_string_to_hex_string
+                0x00013a04                common_tools_string_to_u16
+                0x00013a14                common_tools_string_to_u32
+ .text          0x00013a18       0xa0 obj/system_interface.o
+                0x00013aa4                empty_driver_set_rx_bytes
+                0x00013aa8                empty_driver_get_tx_bytes
+                0x00013ab0                empty_driver_get_tx_bytes_num_available
+ .text          0x00013ab8      0x238 obj/time_management.o
+                0x00013ab8                time_mgmnt_gettime_u8
+                0x00013abc                time_mgmnt_gettime_u16
+                0x00013ac0                time_mgmnt_gettime_u32
+                0x00013ac4                time_mgmnt_start_u8
+                0x00013ae0                time_mgmnt_start_u16
+                0x00013afc                time_mgmnt_start_u32
+                0x00013b18                time_mgmnt_stop_u8
+                0x00013b28                time_mgmnt_stop_u16
+                0x00013b38                time_mgmnt_stop_u32
+                0x00013b48                time_mgmnt_is_active_u8
+                0x00013b5c                time_mgmnt_is_active_u16
+                0x00013b70                time_mgmnt_is_active_u32
+                0x00013b84                time_mgmnt_istimeup_raw_u8
+                0x00013bac                time_mgmnt_istimeup_raw_u16
+                0x00013bd4                time_mgmnt_istimeup_raw_u32
+                0x00013bf8                time_mgmnt_elapsed_u8
+                0x00013c28                time_mgmnt_istimeup_u8
+                0x00013c44                time_mgmnt_elapsed_u16
+                0x00013c74                time_mgmnt_istimeup_u16
+                0x00013c90                time_mgmnt_elapsed_u32
+                0x00013cbc                time_mgmnt_istimeup_u32
+                0x00013cd8                time_mgmnt_start_time_u8
+                0x00013ce0                time_mgmnt_start_time_u16
+                0x00013ce8                time_mgmnt_start_time_u32
+ .text          0x00013cf0      0x22c obj/mcu_task_controller.o
+                0x00013cf0                mcu_task_controller_init
+                0x00013d08                mcu_task_controller_register_task
+                0x00013d9c                mcu_task_controller_schedule
+                0x00013e5c                mcu_task_controller_sleep
+                0x00013e8c                mcu_task_controller_wakeup
+                0x00013ebc                mcu_task_controller_terminate_all
+                0x00013eec                mcu_task_controller_background_run
+ .text          0x00013f1c       0x34 obj/mcu_idle_task.o
+                0x00013f1c                mcu_idle_task_init
+                0x00013f20                mcu_idle_task_get_schedule_interval
+                0x00013f28                mcu_idle_task_is_runable
+                0x00013f30                mcu_idle_task_run
+                0x00013f3c                mcu_idle_task_background_run
+                0x00013f40                mcu_idle_task_sleep
+                0x00013f44                mcu_idle_task_wakeup
+                0x00013f48                mcu_idle_task_finish
+                0x00013f4c                mcu_idle_task_terminate
+ .text          0x00013f50      0x72c obj/rpi_protocol_handler_host.o
+                0x00014058                RPI_HOST_COMMAND_RECEIVED_SIGNAL_init
+                0x00014064                RPI_HOST_COMMAND_RECEIVED_SIGNAL_send
+                0x00014074                RPI_HOST_COMMAND_RECEIVED_SIGNAL_set_timeout
+                0x00014084                RPI_HOST_COMMAND_RECEIVED_SIGNAL_connect
+                0x00014094                RPI_HOST_RESPONSE_RECEIVED_SIGNAL_init
+                0x000140a0                RPI_HOST_RESPONSE_RECEIVED_SIGNAL_send
+                0x000140b0                RPI_HOST_RESPONSE_RECEIVED_SIGNAL_set_timeout
+                0x000140c0                RPI_HOST_RESPONSE_RECEIVED_SIGNAL_connect
+                0x000140d0                RPI_HOST_RESPONSE_TIMEOUT_SIGNAL_init
+                0x000140dc                RPI_HOST_RESPONSE_TIMEOUT_SIGNAL_send
+                0x000140ec                RPI_HOST_RESPONSE_TIMEOUT_SIGNAL_set_timeout
+                0x000140fc                RPI_HOST_RESPONSE_TIMEOUT_SIGNAL_connect
+                0x0001410c                RPI_HOST_RESPONSE_OVERFLOW_SIGNAL_init
+                0x00014118                RPI_HOST_RESPONSE_OVERFLOW_SIGNAL_send
+                0x00014128                RPI_HOST_RESPONSE_OVERFLOW_SIGNAL_set_timeout
+                0x00014138                RPI_HOST_RESPONSE_OVERFLOW_SIGNAL_connect
+                0x00014148                RPI_HOST_COMMAND_RECEIVED_SLOT_connect
+                0x00014160                RPI_HOST_NEW_CFG_OBJECT_SLOT_connect
+                0x00014178                RPI_HOST_CFG_COMPLETE_SLOT_connect
+                0x00014190                RPI_HOST_COMMAND_BUFFER_init
+                0x0001419c                RPI_HOST_COMMAND_BUFFER_bytes_available
+                0x000141b4                RPI_HOST_COMMAND_BUFFER_bytes_free
+                0x000141cc                RPI_HOST_COMMAND_BUFFER_clear_all
+                0x000141d8                RPI_HOST_COMMAND_BUFFER_start_write
+                0x000141e4                RPI_HOST_COMMAND_BUFFER_add_byte
+                0x000141f4                RPI_HOST_COMMAND_BUFFER_add_word
+                0x00014204                RPI_HOST_COMMAND_BUFFER_add_long
+                0x00014214                RPI_HOST_COMMAND_BUFFER_add_N_bytes
+                0x00014228                RPI_HOST_COMMAND_BUFFER_stop_write
+                0x00014264                RPI_HOST_COMMAND_BUFFER_start_read
+                0x00014270                RPI_HOST_COMMAND_BUFFER_get_byte
+                0x0001427c                RPI_HOST_COMMAND_BUFFER_get_word
+                0x00014288                RPI_HOST_COMMAND_BUFFER_get_long
+                0x00014294                RPI_HOST_COMMAND_BUFFER_get_N_bytes
+                0x000142a8                RPI_HOST_COMMAND_BUFFER_stop_read
+                0x00014504                RPI_HOST_COMMAND_BUFFER_debug_print
+                0x00014510                RPI_HOST_COMMAND_BUFFER_size
+                0x00014518                RPI_HOST_RESPONSE_BUFFER_init
+                0x00014524                RPI_HOST_RESPONSE_BUFFER_bytes_available
+                0x0001453c                RPI_HOST_RESPONSE_BUFFER_bytes_free
+                0x00014554                RPI_HOST_RESPONSE_BUFFER_clear_all
+                0x00014560                RPI_HOST_RESPONSE_BUFFER_start_write
+                0x0001456c                RPI_HOST_RESPONSE_BUFFER_add_byte
+                0x0001457c                RPI_HOST_RESPONSE_BUFFER_add_word
+                0x0001458c                RPI_HOST_RESPONSE_BUFFER_add_long
+                0x0001459c                RPI_HOST_RESPONSE_BUFFER_add_N_bytes
+                0x000145b0                RPI_HOST_RESPONSE_BUFFER_stop_write
+                0x000145bc                RPI_HOST_RESPONSE_BUFFER_start_read
+                0x000145c8                RPI_HOST_RESPONSE_BUFFER_get_byte
+                0x000145d4                RPI_HOST_RESPONSE_BUFFER_get_word
+                0x000145e0                RPI_HOST_RESPONSE_BUFFER_get_long
+                0x000145ec                RPI_HOST_RESPONSE_BUFFER_get_N_bytes
+                0x00014600                RPI_HOST_RESPONSE_BUFFER_stop_read
+                0x0001460c                RPI_HOST_RESPONSE_BUFFER_debug_print
+                0x00014618                RPI_HOST_RESPONSE_BUFFER_size
+                0x00014620                rpi_protocol_init
+                0x0001466c                rpi_protocol_handler_get_actual_state
+ *fill*         0x0001467c        0x4 
+ .text          0x00014680      0x168 obj/rtc_driver_raspberrypi.o
+                0x00014680                rtc_driver_init
+                0x00014684                rtc_driver_deinit
+                0x00014688                local_rtc_timer_gettime_u32
+                0x00014710                local_rtc_timer_gettime_u8
+                0x00014720                local_rtc_timer_gettime_u16
+                0x00014730                local_rtc_timer_istimeup_u8
+                0x00014758                local_rtc_timer_istimeup_u16
+                0x00014780                local_rtc_timer_istimeup_u32
+                0x000147a4                rtc_timer_elapsed_u8
+                0x000147bc                rtc_timer_elapsed_u16
+                0x000147d4                rtc_timer_elapsed_u32
+ .text          0x000147e8        0x4 obj/clock_driver_raspberrypi.o
+                0x000147e8                clock_driver_init
+ .text          0x000147ec      0x368 obj/gpio_driver_raspberrypi.o
+                0x0001491c                gpio_driver_set_direction
+                0x00014938                gpio_driver_set_level
+                0x0001497c                gpio_driver_init_pin
+                0x000149bc                gpio_driver_init
+                0x00014af0                gpio_driver_get_level
+                0x00014b24                gpio_driver_toggle_level
+                0x00014b50                gpio_driver_print_pin_state
+ .text          0x00014b54      0x5d8 obj/spi0_driver_raspberrypi.o
+                0x00014b54                SPI0_TX_BUFFER_init
+                0x00014b60                SPI0_TX_BUFFER_bytes_available
+                0x00014b78                SPI0_TX_BUFFER_bytes_free
+                0x00014b90                SPI0_TX_BUFFER_clear_all
+                0x00014b9c                SPI0_TX_BUFFER_start_write
+                0x00014ba8                SPI0_TX_BUFFER_add_byte
+                0x00014bb8                SPI0_TX_BUFFER_add_word
+                0x00014bc8                SPI0_TX_BUFFER_add_long
+                0x00014bd8                SPI0_TX_BUFFER_add_N_bytes
+                0x00014bec                SPI0_TX_BUFFER_stop_write
+                0x00014bf8                SPI0_TX_BUFFER_start_read
+                0x00014c04                SPI0_TX_BUFFER_get_byte
+                0x00014c10                SPI0_TX_BUFFER_get_word
+                0x00014c1c                SPI0_TX_BUFFER_get_long
+                0x00014c28                SPI0_TX_BUFFER_get_N_bytes
+                0x00014c3c                SPI0_TX_BUFFER_stop_read
+                0x00014c48                SPI0_TX_BUFFER_debug_print
+                0x00014c54                SPI0_TX_BUFFER_size
+                0x00014c5c                SPI0_RX_BUFFER_init
+                0x00014c68                SPI0_RX_BUFFER_bytes_available
+                0x00014c80                SPI0_RX_BUFFER_bytes_free
+                0x00014c98                SPI0_RX_BUFFER_clear_all
+                0x00014ca4                SPI0_RX_BUFFER_start_write
+                0x00014cb0                SPI0_RX_BUFFER_add_byte
+                0x00014cc0                SPI0_RX_BUFFER_add_word
+                0x00014cd0                SPI0_RX_BUFFER_add_long
+                0x00014ce0                SPI0_RX_BUFFER_add_N_bytes
+                0x00014cf4                SPI0_RX_BUFFER_stop_write
+                0x00014d00                SPI0_RX_BUFFER_start_read
+                0x00014d0c                SPI0_RX_BUFFER_get_byte
+                0x00014d18                SPI0_RX_BUFFER_get_word
+                0x00014d24                SPI0_RX_BUFFER_get_long
+                0x00014d30                SPI0_RX_BUFFER_get_N_bytes
+                0x00014d44                SPI0_RX_BUFFER_stop_read
+                0x00014d50                SPI0_RX_BUFFER_debug_print
+                0x00014d5c                SPI0_RX_BUFFER_size
+                0x00014d64                spi0_driver_initialize
+                0x00014d94                spi0_driver_configure
+                0x00014ec8                spi0_driver_power_off
+                0x00014ef0                spi0_driver_bytes_available
+                0x00014ef4                spi0_driver_get_N_bytes
+                0x00014f20                spi0_driver_set_N_bytes
+                0x00014f50                spi0_driver_is_ready_for_tx
+                0x00014f68                spi0_driver_is_ready_for_rx
+                0x00014f80                spi0_driver_start_rx
+                0x00015028                spi0_driver_wait_for_rx
+                0x0001502c                spi0_driver_stop_rx
+                0x00015030                spi0_driver_start_tx
+                0x000150dc                spi0_driver_wait_for_tx
+                0x000150e0                spi0_driver_stop_tx
+                0x000150e4                spi0_driver_clear_rx_buffer
+                0x000150e8                spi0_driver_clear_tx_buffer
+                0x000150ec                spi0_driver_set_address
+                0x000150f0                spi0_driver_mutex_request
+                0x0001511c                spi0_driver_mutex_release
+ .text          0x0001512c       0x50 obj/ui_console.o
+                0x0001512c                console_write_line
+                0x00015130                console_write
+                0x00015140                console_write_string
+                0x00015154                console_write_number
+                0x00015164                console_new_line
+                0x0001516c                console_hex_dump
+ .text          0x0001517c      0x2e0 obj/ui_lcd_16x2.o
+                0x00015204                lcd_write_char
+                0x0001522c                lcd_init
+                0x0001532c                lcd_deinit
+                0x00015340                lcd_set_enabled
+                0x00015358                lcd_write_line
+ .text          0x0001545c      0x3cc obj/cfg_file_parser.o
+                0x0001545c                cfg_file_parser_task_init
+                0x000154d4                cfg_file_parser_task_terminate
+                0x000154d8                cfg_file_parser_task_finish
+                0x000154dc                cfg_file_parser_task_get_schedule_interval
+                0x00015500                cfg_file_parser_task_get_state
+                0x00015524                CFG_PARSER_CFG_COMPLETE_SIGNAL_init
+                0x00015530                CFG_PARSER_CFG_COMPLETE_SIGNAL_send
+                0x00015540                CFG_PARSER_CFG_COMPLETE_SIGNAL_set_timeout
+                0x00015550                CFG_PARSER_CFG_COMPLETE_SIGNAL_connect
+                0x00015560                CFG_PARSER_NEW_CFG_OBJECT_SIGNAL_init
+                0x0001556c                CFG_PARSER_NEW_CFG_OBJECT_SIGNAL_send
+                0x0001557c                CFG_PARSER_NEW_CFG_OBJECT_SIGNAL_set_timeout
+                0x0001558c                CFG_PARSER_NEW_CFG_OBJECT_SIGNAL_connect
+                0x0001559c                CFG_PARSER_CFG_FILE_SLOT_connect
+                0x000155b4                CFG_FILE_open
+                0x000155c0                CFG_FILE_is_open
+                0x000155cc                CFG_FILE_open_path
+                0x000155f0                CFG_FILE_set_path
+                0x00015600                CFG_FILE_close
+                0x0001560c                CFG_FILE_has_changed
+                0x00015618                CFG_FILE_is_existing
+                0x00015624                CFG_FILE_is_readable
+                0x00015630                CFG_FILE_get_size
+                0x0001563c                CFG_FILE_create
+                0x00015648                CFG_FILE_delete
+                0x00015654                CFG_FILE_rename
+                0x00015664                CFG_FILE_read_next_line
+                0x00015720                cfg_file_parser_task_run
+                0x000157b0                CFG_FILE_read_line
+                0x000157c4                CFG_FILE_append_line
+                0x000157d4                CFG_FILE_get_path
+                0x000157e0                cfg_file_parser_init
+                0x0001581c                cfg_file_parser_task_background_run
+                0x00015820                cfg_file_parser_task_sleep
+                0x00015824                cfg_file_parser_task_wakeup
+ .text          0x00015828      0x2b4 obj/file_interface.o
+                0x00015828                file_set_path
+                0x0001585c                file_has_changed
+                0x00015894                file_get_path
+                0x00015898                file_is_open
+                0x000158a8                file_is_existing
+                0x000158c8                file_is_readable
+                0x000158d0                file_get_size
+                0x000158f4                file_delete
+                0x00015904                file_rename
+                0x00015914                file_close
+                0x0001593c                file_create
+                0x0001596c                file_open
+                0x00015998                file_read_line
+                0x00015a18                file_read_next_line
+                0x00015a28                file_read_specific_line
+                0x00015a7c                file_append_line
+ .text          0x00015adc      0x288 obj/command_line_argument_table.o
+                0x00015adc                CLI_INVALID_ARGUMENT_SIGNAL_init
+                0x00015ae8                CLI_INVALID_ARGUMENT_SIGNAL_send
+                0x00015af8                CLI_INVALID_ARGUMENT_SIGNAL_set_timeout
+                0x00015b08                CLI_INVALID_ARGUMENT_SIGNAL_connect
+                0x00015b18                CLI_INVALID_PARAMETER_SIGNAL_init
+                0x00015b24                CLI_INVALID_PARAMETER_SIGNAL_send
+                0x00015b34                CLI_INVALID_PARAMETER_SIGNAL_set_timeout
+                0x00015b44                CLI_INVALID_PARAMETER_SIGNAL_connect
+                0x00015b54                CLI_HELP_REQUESTED_SIGNAL_init
+                0x00015b60                CLI_HELP_REQUESTED_SIGNAL_send
+                0x00015b70                CLI_HELP_REQUESTED_SIGNAL_set_timeout
+                0x00015b80                CLI_HELP_REQUESTED_SIGNAL_connect
+                0x00015b90                CLI_LCD_ACTIVATED_SIGNAL_init
+                0x00015b9c                CLI_LCD_ACTIVATED_SIGNAL_send
+                0x00015bac                CLI_LCD_ACTIVATED_SIGNAL_set_timeout
+                0x00015bbc                CLI_LCD_ACTIVATED_SIGNAL_connect
+                0x00015bcc                CLI_CONSOLE_ACTIVATED_SIGNAL_init
+                0x00015bd8                CLI_CONSOLE_ACTIVATED_SIGNAL_send
+                0x00015be8                CLI_CONSOLE_ACTIVATED_SIGNAL_set_timeout
+                0x00015bf8                CLI_CONSOLE_ACTIVATED_SIGNAL_connect
+                0x00015c08                CLI_CONFIGURATION_SIGNAL_init
+                0x00015c14                CLI_CONFIGURATION_SIGNAL_send
+                0x00015c24                CLI_CONFIGURATION_SIGNAL_set_timeout
+                0x00015c34                CLI_CONFIGURATION_SIGNAL_connect
+                0x00015c44                CLI_MESSAGE_SIGNAL_init
+                0x00015c50                CLI_MESSAGE_SIGNAL_send
+                0x00015c60                CLI_MESSAGE_SIGNAL_set_timeout
+                0x00015c70                CLI_MESSAGE_SIGNAL_connect
+                0x00015c80                command_line_interface_init
+                0x00015ca0                command_line_interface
+ .text          0x00015d64      0x298 obj/command_line_handler.o
+                0x00015d64                command_line_handler_device
+                0x00015d68                command_line_handler_cfg_file
+                0x00015d6c                command_line_handler_lcd
+                0x00015d74                command_line_handler_console
+                0x00015d7c                command_line_handler_command
+                0x00015de0                command_line_handler_controller
+                0x00015de4                command_line_handler_help
+                0x00015dec                command_line_handler_topic
+                0x00015e90                command_line_handler_host
+                0x00015f3c                command_line_handler_client
+                0x00015ff8                command_line_handler_message
+ .text          0x00015ffc        0x4 obj/sensor_initialization.o
+                0x00015ffc                sensor_initialization
+ .text          0x00016000        0x4 obj/button_initialization.o
+                0x00016000                button_initialization
+ .text          0x00016004        0x4 obj/output_initialization.o
+                0x00016004                output_initialization
+ .text          0x00016008       0x10 obj/protocol_initialization.o
+                0x00016008                protocol_initialization
+ .text          0x00016018        0x4 obj/command_initialization.o
+                0x00016018                command_initialization
+ .text          0x0001601c        0x4 obj/task_initialization.o
+                0x0001601c                task_initialization
+ .text          0x00016020       0x28 obj/system_initialization.o
+                0x00016020                system_initialization
+ .text          0x00016048        0x4 obj/power_initialization.o
+                0x00016048                power_initialization
+ .text          0x0001604c       0x30 obj/initialization.o
+                0x0001604c                initialization
+ .text          0x0001607c      0x3c0 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_arm_addsubdf3.o)
+                0x0001607c                __aeabi_drsub
+                0x00016084                __aeabi_dsub
+                0x00016084                __subdf3
+                0x00016088                __adddf3
+                0x00016088                __aeabi_dadd
+                0x00016334                __floatunsidf
+                0x00016334                __aeabi_ui2d
+                0x00016358                __aeabi_i2d
+                0x00016358                __floatsidf
+                0x00016380                __aeabi_f2d
+                0x00016380                __extendsfdf2
+                0x000163c8                __aeabi_ul2d
+                0x000163c8                __floatundidf
+                0x000163dc                __floatdidf
+                0x000163dc                __aeabi_l2d
+ *fill*         0x0001643c        0x4 
+ .text          0x00016440       0x40 /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_fixunsdfdi.o)
+                0x00016440                __aeabi_d2ulz
+                0x00016440                __fixunsdfdi
+ .text          0x00016480       0x64 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+                0x00016480                __libc_csu_init
+                0x000164e0                __libc_csu_fini
+ .text          0x000164e4       0x10 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat.oS)
+                0x000164e4                __stat
+                0x000164e4                stat
+ *(.gnu.warning)
+ *(.glue_7t)
+ .glue_7t       0x000164f4        0x0 linker stubs
+ *(.glue_7)
+ .glue_7        0x000164f4        0x0 linker stubs
+ *(.vfp11_veneer)
+ .vfp11_veneer  0x000164f4        0x0 linker stubs
+ *(.v4_bx)
+ .v4_bx         0x000164f4        0x0 linker stubs
+
+.fini           0x000164f4        0x8
+ *(SORT_NONE(.fini))
+ .fini          0x000164f4        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+                0x000164f4                _fini
+ .fini          0x000164f8        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+                [!provide]                PROVIDE (__etext = .)
+                [!provide]                PROVIDE (_etext = .)
+                [!provide]                PROVIDE (etext = .)
+
+.rodata         0x000164fc      0x666
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.str1.1
+                0x000164fc      0x1c5 obj/main_spi_helper.o
+ .rodata        0x000166c1       0x4e obj/board_RASPBERRYPI.o
+                0x000166c1                I2C_SDA
+                0x000166c4                I2C_SCL
+                0x000166c7                GPIO04
+                0x000166ca                UART_TXD
+                0x000166cd                UART_RXD
+                0x000166d0                GPIO17
+                0x000166d3                GPIO18
+                0x000166d6                GPIO27
+                0x000166d9                GPIO22
+                0x000166dc                GPIO23
+                0x000166df                GPIO24
+                0x000166e2                SPI_MOSI
+                0x000166e5                SPI_MISO
+                0x000166e8                GPIO25
+                0x000166eb                SPI_SCLK
+                0x000166ee                SPI_CE0
+                0x000166f1                SPI_CE1
+                0x000166f4                GPIO05
+                0x000166f7                GPIO06
+                0x000166fa                GPIO12
+                0x000166fd                GPIO13
+                0x00016700                GPIO19
+                0x00016703                GPIO16
+                0x00016706                GPIO26
+                0x00016709                GPIO20
+                0x0001670c                GPIO21
+ .rodata.str1.1
+                0x0001670f       0x18 obj/common_tools_string.o
+                                 0x1d (size before relaxing)
+ *fill*         0x00016727        0x1 
+ .rodata        0x00016728       0x54 obj/system_interface.o
+                0x00016728                i_system
+ .rodata.str1.1
+                0x0001677c       0x1c obj/rpi_protocol_handler_host.o
+ .rodata.str1.1
+                0x00016798        0xf obj/spi0_driver_raspberrypi.o
+ .rodata.str1.1
+                0x000167a7        0xa obj/ui_console.o
+                                  0xd (size before relaxing)
+ .rodata.str1.1
+                0x000167b1        0x9 obj/file_interface.o
+                                  0xb (size before relaxing)
+ *fill*         0x000167ba        0x2 
+ .rodata        0x000167bc       0x60 obj/command_line_argument_table.o
+ .rodata.str1.1
+                0x0001681c       0x49 obj/command_line_argument_table.o
+ .rodata        0x00016865      0x2fd obj/command_line_handler.o
+ .rodata.str1.1
+                0x00016b62        0x5 obj/command_line_handler.o
+
+.rodata1
+ *(.rodata1)
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                [!provide]                PROVIDE (__exidx_start = .)
+
+.ARM.exidx      0x00016b64        0x8
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+ .ARM.exidx     0x00016b64        0x8 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                [!provide]                PROVIDE (__exidx_end = .)
+
+.eh_frame_hdr
+ *(.eh_frame_hdr)
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x00016b6c        0x4
+ *(.eh_frame)
+ .eh_frame      0x00016b6c        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x00026f00                . = DATA_SEGMENT_ALIGN (CONSTANT (MAXPAGESIZE), CONSTANT (COMMONPAGESIZE))
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata          0x00026f00        0x0
+                [!provide]                PROVIDE (__tdata_start = .)
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x00026f00        0x0
+                [!provide]                PROVIDE (__preinit_array_start = .)
+ *(.preinit_array)
+                [!provide]                PROVIDE (__preinit_array_end = .)
+
+.init_array     0x00026f00        0x4
+                0x00026f00                PROVIDE (__init_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.init_array.*) SORT_BY_INIT_PRIORITY(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x00026f00        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+                0x00026f04                PROVIDE (__init_array_end = .)
+
+.fini_array     0x00026f04        0x4
+                [!provide]                PROVIDE (__fini_array_start = .)
+ *(SORT_BY_INIT_PRIORITY(.fini_array.*) SORT_BY_INIT_PRIORITY(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x00026f04        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+                [!provide]                PROVIDE (__fini_array_end = .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+
+.jcr
+ *(.jcr)
+
+.data.rel.ro    0x00026f08        0x0
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+ .data.rel.ro   0x00026f08        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+
+.dynamic        0x00026f08       0xf8
+ *(.dynamic)
+ .dynamic       0x00026f08       0xf8 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x00026f08                _DYNAMIC
+                0x00027000                . = DATA_SEGMENT_RELRO_END (., 0x0)
+
+.got            0x00027000       0x90
+ *(.got.plt)
+ .got.plt       0x00027000       0x8c /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+                0x00027000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0002708c        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ *(.got)
+ .got           0x0002708c        0x4 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ *(.igot)
+
+.data           0x00027090      0x2a4
+                [!provide]                PROVIDE (__data_start = .)
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x00027090       0x68 obj/board_RASPBERRYPI.o
+                0x00027090                p_pin_GPIO_PORT_E_GPIO_PIN_7
+                0x00027094                p_pin_GPIO_PORT_E_GPIO_PIN_5
+                0x00027098                p_pin_GPIO_PORT_E_GPIO_PIN_4
+                0x0002709c                p_pin_GPIO_PORT_E_GPIO_PIN_3
+                0x000270a0                p_pin_GPIO_PORT_E_GPIO_PIN_2
+                0x000270a4                p_pin_GPIO_PORT_E_GPIO_PIN_0
+                0x000270a8                p_pin_GPIO_PORT_D_GPIO_PIN_7
+                0x000270ac                p_pin_GPIO_PORT_D_GPIO_PIN_6
+                0x000270b0                p_pin_GPIO_PORT_D_GPIO_PIN_4
+                0x000270b4                p_pin_GPIO_PORT_D_GPIO_PIN_1
+                0x000270b8                p_pin_GPIO_PORT_C_GPIO_PIN_7
+                0x000270bc                p_pin_GPIO_PORT_C_GPIO_PIN_6
+                0x000270c0                p_pin_GPIO_PORT_C_GPIO_PIN_5
+                0x000270c4                p_pin_GPIO_PORT_C_GPIO_PIN_4
+                0x000270c8                p_pin_GPIO_PORT_C_GPIO_PIN_2
+                0x000270cc                p_pin_GPIO_PORT_C_GPIO_PIN_1
+                0x000270d0                p_pin_GPIO_PORT_B_GPIO_PIN_7
+                0x000270d4                p_pin_GPIO_PORT_B_GPIO_PIN_6
+                0x000270d8                p_pin_GPIO_PORT_B_GPIO_PIN_4
+                0x000270dc                p_pin_GPIO_PORT_B_GPIO_PIN_3
+                0x000270e0                p_pin_GPIO_PORT_B_GPIO_PIN_2
+                0x000270e4                p_pin_GPIO_PORT_B_GPIO_PIN_1
+                0x000270e8                p_pin_GPIO_PORT_A_GPIO_PIN_7
+                0x000270ec                p_pin_GPIO_PORT_A_GPIO_PIN_6
+                0x000270f0                p_pin_GPIO_PORT_A_GPIO_PIN_4
+                0x000270f4                p_pin_GPIO_PORT_A_GPIO_PIN_2
+ .data          0x000270f8      0x140 obj/system_interface.o
+ .data          0x00027238        0x8 obj/mcu_task_controller.o
+ .data          0x00027240       0xa4 obj/rpi_protocol_handler_host.o
+ .data          0x000272e4       0x20 obj/spi0_driver_raspberrypi.o
+ .data          0x00027304       0x30 obj/cfg_file_parser.o
+
+.tm_clone_table
+                0x00027334        0x0
+ .tm_clone_table
+                0x00027334        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ .tm_clone_table
+                0x00027334        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+
+.data1
+ *(.data1)
+                0x00027334                _edata = .
+                [!provide]                PROVIDE (edata = .)
+                0x00027334                . = .
+                0x00027334                __bss_start = .
+                0x00027334                __bss_start__ = .
+
+.bss            0x00027334      0x574
+ *(.dynbss)
+ .dynbss        0x00027334        0x0 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x00027334        0x1 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ *fill*         0x00027335        0x3 
+ .bss           0x00027338       0x34 obj/main_spi_helper.o
+ .bss           0x0002736c        0x1 obj/signal_slot_interface.o
+ *fill*         0x0002736d        0x3 
+ .bss           0x00027370        0x8 obj/mcu_task_controller.o
+ .bss           0x00027378      0x190 obj/rpi_protocol_handler_host.o
+ .bss           0x00027508      0x115 obj/spi0_driver_raspberrypi.o
+ .bss           0x0002761d       0x24 obj/ui_lcd_16x2.o
+ *fill*         0x00027641        0x3 
+ .bss           0x00027644      0x22c obj/cfg_file_parser.o
+ .bss           0x00027870       0x38 obj/command_line_argument_table.o
+ *(COMMON)
+                0x000278a8                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x000278a8                _bss_end__ = .
+                0x000278a8                __bss_end__ = .
+                0x000278a8                . = ALIGN (0x4)
+                0x000278a8                . = SEGMENT_START ("ldata-segment", .)
+                0x000278a8                . = ALIGN (0x4)
+                0x000278a8                __end__ = .
+                0x000278a8                _end = .
+                [!provide]                PROVIDE (end = .)
+                0x000278a8                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x00000000       0x23
+ *(.comment)
+ .comment       0x00000000       0x23 /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+                                 0x24 (size before relaxing)
+ .comment       0x00000023       0x24 obj/main_spi_helper.o
+ .comment       0x00000023       0x24 obj/board_RASPBERRYPI.o
+ .comment       0x00000023       0x24 obj/local_module_status.o
+ .comment       0x00000023       0x24 obj/local_mutex.o
+ .comment       0x00000023       0x24 obj/local_msg_buffer.o
+ .comment       0x00000023       0x24 obj/signal_slot_interface.o
+ .comment       0x00000023       0x24 obj/common_tools_string.o
+ .comment       0x00000023       0x24 obj/system_interface.o
+ .comment       0x00000023       0x24 obj/time_management.o
+ .comment       0x00000023       0x24 obj/mcu_task_controller.o
+ .comment       0x00000023       0x24 obj/mcu_idle_task.o
+ .comment       0x00000023       0x24 obj/rpi_protocol_handler_host.o
+ .comment       0x00000023       0x24 obj/rtc_driver_raspberrypi.o
+ .comment       0x00000023       0x24 obj/clock_driver_raspberrypi.o
+ .comment       0x00000023       0x24 obj/gpio_driver_raspberrypi.o
+ .comment       0x00000023       0x24 obj/spi0_driver_raspberrypi.o
+ .comment       0x00000023       0x24 obj/ui_console.o
+ .comment       0x00000023       0x24 obj/ui_lcd_16x2.o
+ .comment       0x00000023       0x24 obj/cfg_file_parser.o
+ .comment       0x00000023       0x24 obj/file_interface.o
+ .comment       0x00000023       0x24 obj/command_line_argument_table.o
+ .comment       0x00000023       0x24 obj/command_line_handler.o
+ .comment       0x00000023       0x24 obj/sensor_initialization.o
+ .comment       0x00000023       0x24 obj/button_initialization.o
+ .comment       0x00000023       0x24 obj/output_initialization.o
+ .comment       0x00000023       0x24 obj/protocol_initialization.o
+ .comment       0x00000023       0x24 obj/command_initialization.o
+ .comment       0x00000023       0x24 obj/task_initialization.o
+ .comment       0x00000023       0x24 obj/system_initialization.o
+ .comment       0x00000023       0x24 obj/power_initialization.o
+ .comment       0x00000023       0x24 obj/initialization.o
+ .comment       0x00000023       0x24 /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+
+.ARM.attributes
+                0x00000000       0x2f
+ .ARM.attributes
+                0x00000000       0x2f /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crt1.o
+ .ARM.attributes
+                0x0000002f       0x23 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crti.o
+ .ARM.attributes
+                0x00000052       0x2f /usr/lib/gcc/arm-linux-gnueabihf/8/crtbegin.o
+ .ARM.attributes
+                0x00000081       0x2f obj/main_spi_helper.o
+ .ARM.attributes
+                0x000000b0       0x2f obj/board_RASPBERRYPI.o
+ .ARM.attributes
+                0x000000df       0x2f obj/local_module_status.o
+ .ARM.attributes
+                0x0000010e       0x2f obj/local_mutex.o
+ .ARM.attributes
+                0x0000013d       0x2f obj/local_msg_buffer.o
+ .ARM.attributes
+                0x0000016c       0x2f obj/signal_slot_interface.o
+ .ARM.attributes
+                0x0000019b       0x2f obj/common_tools_string.o
+ .ARM.attributes
+                0x000001ca       0x2f obj/system_interface.o
+ .ARM.attributes
+                0x000001f9       0x2f obj/time_management.o
+ .ARM.attributes
+                0x00000228       0x2f obj/mcu_task_controller.o
+ .ARM.attributes
+                0x00000257       0x2f obj/mcu_idle_task.o
+ .ARM.attributes
+                0x00000286       0x2f obj/rpi_protocol_handler_host.o
+ .ARM.attributes
+                0x000002b5       0x2f obj/rtc_driver_raspberrypi.o
+ .ARM.attributes
+                0x000002e4       0x2f obj/clock_driver_raspberrypi.o
+ .ARM.attributes
+                0x00000313       0x2f obj/gpio_driver_raspberrypi.o
+ .ARM.attributes
+                0x00000342       0x2f obj/spi0_driver_raspberrypi.o
+ .ARM.attributes
+                0x00000371       0x2f obj/ui_console.o
+ .ARM.attributes
+                0x000003a0       0x2f obj/ui_lcd_16x2.o
+ .ARM.attributes
+                0x000003cf       0x2f obj/cfg_file_parser.o
+ .ARM.attributes
+                0x000003fe       0x2f obj/file_interface.o
+ .ARM.attributes
+                0x0000042d       0x2f obj/command_line_argument_table.o
+ .ARM.attributes
+                0x0000045c       0x2f obj/command_line_handler.o
+ .ARM.attributes
+                0x0000048b       0x2f obj/sensor_initialization.o
+ .ARM.attributes
+                0x000004ba       0x2f obj/button_initialization.o
+ .ARM.attributes
+                0x000004e9       0x2f obj/output_initialization.o
+ .ARM.attributes
+                0x00000518       0x2f obj/protocol_initialization.o
+ .ARM.attributes
+                0x00000547       0x2f obj/command_initialization.o
+ .ARM.attributes
+                0x00000576       0x2f obj/task_initialization.o
+ .ARM.attributes
+                0x000005a5       0x2f obj/system_initialization.o
+ .ARM.attributes
+                0x000005d4       0x2f obj/power_initialization.o
+ .ARM.attributes
+                0x00000603       0x2f obj/initialization.o
+ .ARM.attributes
+                0x00000632       0x1d /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_arm_addsubdf3.o)
+ .ARM.attributes
+                0x0000064f       0x2f /usr/lib/gcc/arm-linux-gnueabihf/8/libgcc.a(_fixunsdfdi.o)
+ .ARM.attributes
+                0x0000067e       0x31 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(elf-init.oS)
+ .ARM.attributes
+                0x000006af       0x31 //usr/lib/arm-linux-gnueabihf/libc_nonshared.a(stat.oS)
+ .ARM.attributes
+                0x000006e0       0x2f /usr/lib/gcc/arm-linux-gnueabihf/8/crtend.o
+ .ARM.attributes
+                0x0000070f       0x23 /usr/lib/gcc/arm-linux-gnueabihf/8/../../../arm-linux-gnueabihf/crtn.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.debug_addr
+ *(.debug_addr)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+.note.gnu.arm.ident
+ *(.note.gnu.arm.ident)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(obj/spiHelper.elf elf32-littlearm)
